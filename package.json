@@ -1,0 +1,20 @@
+{
+  "name": "e-commerce-greek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./index.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadali1995/e-commerce-greek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadali1995/e-commerce-greek/issues"
+  },
+  "homepage": "https://github.com/muhammadali1995/e-commerce-greek#readme"
+}
