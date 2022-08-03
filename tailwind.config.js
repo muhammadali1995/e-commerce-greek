@@ -6,12 +6,14 @@ module.exports = {
         "dark-green": "#009289",
         "red": "#DD1B1E",
         "gray-black": "#5a5a5a",
+        "gray-light": "#818181",
       },
       maxWidth: {
         134: '134px',
       },
       width: {
         800: '800px',
+        170: '170px',
       },
       maxWidth: {
         134: '134px',

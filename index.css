@@ -42,4 +42,12 @@ body {
     .container {
         @apply max-w-1544 w-full mx-auto
     }
+
+    .text-10 {
+        @apply text-[10px] text-gray-light
+    }
+
+    .text-9 {
+        @apply text-[9px] text-gray-light
+    }
 }
