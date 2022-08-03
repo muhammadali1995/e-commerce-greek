@@ -21,3 +21,17 @@
 body {
     font-family: 'Regular';
 }
+
+@layer components {
+    .text-28 {
+        @apply text-[28px] font-medium text-white
+    }
+
+    .text-24 {
+        @apply text-2xl font-normal text-white
+    }
+
+    .text-12 {
+       @apply text-xs font-semibold text-white
+    }
+}
