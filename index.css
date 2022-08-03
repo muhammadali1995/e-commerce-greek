@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Regular';
+    src: url('./assets/manrope/manrope-regular.otf');
+}
+
+
+@font-face {
+    font-family: 'Semibold';
+    src: url('./assets/manrope/manrope-semibold.otf');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('./assets/manrope/manrope-bold.otf');
+}
+
+body {
+    font-family: 'Regular';
+}
