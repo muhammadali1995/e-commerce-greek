@@ -558,7 +558,65 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+.flex {
+  display: flex;
+}
+
+.max-w-134 {
+  max-width: 134px;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.bg- {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 127 26 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\.\/assets\/bg-footer\.jpg\)\] {
+  background-image: url(./assets/bg-footer.jpg);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: 'Regular';
+
+  src: url('./assets/manrope/manrope-regular.otf');
+}
+
+@font-face {
+  font-family: 'Semibold';
+
+  src: url('./assets/manrope/manrope-semibold.otf');
+}
+
+@font-face {
+  font-family: 'Bold';
+
+  src: url('./assets/manrope/manrope-bold.otf');
+}
+
+body {
+  font-family: 'Regular';
 }
