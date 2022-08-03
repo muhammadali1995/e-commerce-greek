@@ -4,14 +4,14 @@ module.exports = {
     extend: {
       colors: {
         "dark-green": "#009289",
-        "red": "#DD1B1E"
+        "red": "#DD1B1E",
+        "gray-black": "#5a5a5a",
       },
       maxWidth: {
         134: '134px',
       },
       width: {
         800: '800px',
-        "gray-black": "#5a5a5a",
       },
       maxWidth: {
         134: '134px',
