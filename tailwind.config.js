@@ -4,6 +4,9 @@ module.exports = {
     extend: {
       colors: {
         "dark-green": "#009289"
+      },
+      maxWidth: {
+        134: '134px',
       }
     },
   },
