@@ -34,4 +34,12 @@ body {
     .text-12 {
        @apply text-xs font-semibold text-white
     }
+
+    .text-14 {
+        @apply text-sm text-gray-black
+    }
+
+    .container {
+        @apply max-w-1544 w-full mx-auto
+    }
 }
