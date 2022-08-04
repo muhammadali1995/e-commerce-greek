@@ -11,40 +11,46 @@
 </head>
 
 <body>
-    <div class="flex text-12 items-center justify-center md:justify-between bg-dark-green py-2 px-4">
-        <div class="w-1/3 hidden 2xl:block"></div>
-        <div class="2xl:w-1/3 flex items-center justify-center">
-            <a href="#" class="mr-6">Εταιρία</a>
-            <a href="#" class="mr-6">Νέα</a>
-            <a href="#" class="mr-6">Επικοινωνία</a>
-            <a href="#">Κατηγορίες</a>
-        </div>
-        <div class="items-center 2xl:w-1/3 text-center justify-end hidden md:flex">
-            <p>Χρειάζεστε βοήθεια? Καλέστε μας: 210 269 3600</p>
-            <img src="./assets/phone.svg" alt="phone" class="ml-2">
-        </div>
-        <img src="./assets/phone.svg" alt="phone" class="block md:hidden ml-2">
-    </div>
-    <div class="flex items-center justify-between p-5">
-        <div class="flex items-end">
-            <img src="./assets/main-logo.png" alt="main-logo">
-            <div class="items-center lg:ml-14 ml-4 hidden md:flex">
-                <img src="./assets/menu.svg" alt="menu">
-                <p class="ml-4">Προϊόντα</p>
+    <!-- NAVBAR -->
+    <section>
+        <div class="flex text-12 items-center justify-center md:justify-between bg-dark-green py-2 px-4">
+            <div class="w-1/3 hidden 2xl:block"></div>
+            <div class="2xl:w-1/3 flex items-center justify-center">
+                <a href="#" class="mr-6">Εταιρία</a>
+                <a href="#" class="mr-6">Νέα</a>
+                <a href="#" class="mr-6">Επικοινωνία</a>
+                <a href="#">Κατηγορίες</a>
             </div>
+            <div class="items-center 2xl:w-1/3 text-center justify-end hidden md:flex">
+                <p>Χρειάζεστε βοήθεια? Καλέστε μας: 210 269 3600</p>
+                <img src="./assets/phone.svg" alt="phone" class="ml-2">
+            </div>
+            <img src="./assets/phone.svg" alt="phone" class="block md:hidden ml-2">
         </div>
-        <div class="items-center hidden md:flex">
-            <input type="text" placeholder="ψάχνω για …"
-                class="outline-none pb-1 2xl:w-800 border-b text-gray-500 border-b-gray-500">
-            <img src="./assets/search.png" alt="search" class="ml-3">
-            <img src="./assets/heart.png" alt="heart" class="ml-3">
-            <img src="./assets/cart.png" alt="cart" class="ml-3">
-            <img src="./assets/user.png" alt="user" class="ml-3">
-            <p class="text-red ml-2">Σύνδεση</p>
+        <div class="flex items-center justify-between p-5">
+            <div class="flex items-end">
+                <img src="./assets/main-logo.png" alt="main-logo">
+                <div class="items-center lg:ml-14 ml-4 hidden md:flex">
+                    <img src="./assets/menu.svg" alt="menu">
+                    <p class="ml-4">Προϊόντα</p>
+                </div>
+            </div>
+            <div class="items-center hidden md:flex">
+                <input type="text" placeholder="ψάχνω για …"
+                    class="outline-none pb-1 2xl:w-800 border-b text-gray-500 border-b-gray-500">
+                <img src="./assets/search.png" alt="search" class="ml-3">
+                <img src="./assets/heart.png" alt="heart" class="ml-3">
+                <img src="./assets/cart.png" alt="cart" class="ml-3">
+                <img src="./assets/user.png" alt="user" class="ml-3">
+                <p class="text-red ml-2">Σύνδεση</p>
+            </div>
+            <img src="./assets/menu.svg" alt="menu" class="block md:hidden">
         </div>
-        <img src="./assets/menu.svg" alt="menu" class="block md:hidden">
-    </div>
-    <div class="px-5">
+    </section>
+    <!-- NAVBAR -->
+
+    <!-- HEADER -->
+    <header class="px-5">
         <div class="flex w-ful flex-col-reverse md:flex-row">
             <div class="flex md:w-1/2 overflow-hidden w-full mt-1 md:mt-0">
                 <img src="./assets/header1.png" alt="header1" class="w-1/2 overflow-hidden">
@@ -57,8 +63,11 @@
             <img src="./assets/header5.png" alt="header5" class="w-1/3 ml-5 overflow-hidden">
             <img src="./assets/header6.png" alt="header6" class="w-1/4 ml-5 overflow-hidden">
         </div>
-    </div>
-    <div class="containers px-4">
+    </header>
+    <!-- HEADER -->
+
+    <!-- SPRAY -->
+    <section class="containers px-4">
         <div class="flex mt-10 items-center justify-between">
             <h3>Νέα Προϊόντα</h3>
             <img class="block md:hidden" src="./assets/arrow.png" alt="arrow">
@@ -150,137 +159,192 @@
                 <p class="spray-content">Συνδεθείτε για να δείτε την τιμή</p>
             </div>
         </div>
+    </section>
+    <!-- SPRAY -->
+
+    <!-- SLIDER -->
+    <section class="mt-11">
+        <div class="slide bg-slide1">
+            <div>
+                <h4 class="slider-subtitle">Galesyn®</h4>
+                <h1 class="slider-title">Γνωρίστε τη νέα σειρά δερμοκαλλυντικών προϊόντων</h1>
+            </div>
+            <button class="slider-btn">δείτε περισσότερα</button>
+        </div>
+        <div class="flex justify-center items-center mt-3">
+            <div class="slider-pagination"></div>
+            <div class="slider-pagination-active ml-3"></div>
+            <div class="slider-pagination ml-3"></div>
+        </div>
+        <div class="max-w-1544 mx-auto px-4 mt-32">
+            <h4 class="text-26">Διάλεξε κατηγορία</h4>
+            <div class="flex items-center">
+                <button class="arrow-btn"><img src="./assets/arrow.png" alt="arrow"></button>
+                <div class="flex items-center">
+                    <div class="slider">
+                        <img src="./assets/slider5.png" alt="slider">
+                        <p>PACK</p>
+                    </div>
+                </div>
+                <button class="arrow-btn"><img src="./assets/arrow.png" alt="arrow"></button>
+            </div>
+        </div>
+    </section>
+    <!-- SLIDER -->
+
+    <!--  -->
+    <div class="containers mb-12">
+        <h1 class="text-24 text-center text-black">Instagram Feed</h1>
+        <div class="flex items-center justify-between mt-4">
+            <a href="/"><img src="./assets/insta-01.png" alt="insta-01" class="w-254 hover:opacity-80"></a>
+            <a href="/"><img src="./assets/insta-02.png" alt="insta-02" class="w-254"></a>
+            <a href="/"><img src="./assets/insta-03.png" alt="insta-03" class="w-254"></a>
+            <a href="/"><img src="./assets/insta-04.png" alt="insta-04" class="w-254"></a>
+            <a href="/"><img src="./assets/insta-05.png" alt="insta-05" class="w-254"></a>
+            <a href="/"><img src="./assets/insta-06.png" alt="insta-06" class="w-254"></a>
+        </div>
     </div>
     <div class="containers mb-8 bg-gray px-10 py-6 flex flex-col md:flex-row items-center justify-between">
         <div class="mr-2">
             <p class="text-18">
-                Θέλετε να εγγραφείτε στο newsletter μας; <br class="hidden lg:block"> Συμπληρώστε το email σας για να σας ενημερώνουμε για τα νέα μας.
+                Θέλετε να εγγραφείτε στο newsletter μας; <br class="hidden lg:block"> Συμπληρώστε το email σας για
+                να σας ενημερώνουμε για τα νέα μας.
             </p>
-            <p class="text-14">
-                Συμφωνώ με την Πολιτική απορρήτου <span class="text-red">*</span>
-            </p>
+            <form class="">
+                <input type="radio" class="input" id="input">
+                <label for="input" class="text-14">
+                    Συμφωνώ με την Πολιτική απορρήτου <span class="text-red">*</span>
+                </label>
+            </form>
         </div>
         <form class="flex flex-col md:flex-row items-center w-full md:w-auto mt-8 md:mt-0">
-            <input type="text" placeholder="Το email σας" class="py-3 pl-4 md:pl-7 bor w-full md:w-80 xl:w-407 md:mr-2 border border-black">
-            <button type="submit" class="text-14 text-left md:text-center pl-4 md:pl-0 mt-2 md:mt-0 text-white bg-black w-full md:w-32 py-4">Αποστολή</button>
+            <input type="text" placeholder="Το email σας"
+                class="py-3 pl-4 md:pl-7 bor w-full md:w-80 xl:w-407 md:mr-2 border border-black">
+            <button type="submit"
+                class="text-14 text-left md:text-center pl-4 md:pl-0 mt-2 md:mt-0 text-white bg-black w-full md:w-32 py-4">Αποστολή</button>
         </form>
     </div>
-    <footer class="footer-bg mt-7 md:pt-18 border-y border-line-color pt-7">
-        <div class="containers px-4 xl:px-20">
-            <a href="/"><img src="./assets/main-logo.png" alt="main-logo"></a>
-            <div class="sm:flex sm:flex-wrap lg:flex-row items-start justify-between text-14 mt-7 sm:mt-18">
-                <div class="mb-6 lg:mb-0 mr-5 lg:mr-0">
-                    <p class="">
-                        Εταιρεία δεύτερης γενιάς που <br class="hidden sm:block"> προμηθεύει φαρμακαποθήκες & <br
-                            class="hidden sm:block"> φαρμακεία με
-                        παραφαρμακευτικά,
-                        <br class="hidden sm:block"> ιατροτεχνολογικά & χημικές ουσίες πάνω <br class="hidden sm:block">
-                        από 30 χρόνια…
-                    </p class="hidden sm:block">
-                    <div class="items-center hidden sm:flex max-w-134 justify-between mt-28">
+    <!--  -->
+
+    <!-- FOOTER -->
+        <footer class="footer-bg mt-7 md:pt-18 border-y border-line-color pt-7">
+            <div class="containers px-4 xl:px-20">
+                <a href="/"><img src="./assets/main-logo.png" alt="main-logo"></a>
+                <div class="sm:flex sm:flex-wrap lg:flex-row items-start justify-between text-14 mt-7 sm:mt-18">
+                    <div class="mb-6 lg:mb-0 mr-5 lg:mr-0">
+                        <p class="">
+                            Εταιρεία δεύτερης γενιάς που <br class="hidden sm:block"> προμηθεύει φαρμακαποθήκες & <br
+                                class="hidden sm:block"> φαρμακεία με
+                            παραφαρμακευτικά,
+                            <br class="hidden sm:block"> ιατροτεχνολογικά & χημικές ουσίες πάνω <br
+                                class="hidden sm:block">
+                            από 30 χρόνια…
+                        </p class="hidden sm:block">
+                        <div class="items-center hidden sm:flex max-w-134 justify-between mt-28">
+                            <a href="/"><img src="./assets/insta-icon.svg" alt="insta-icon"></a>
+                            <a href="/"><img src="./assets/fb-icon.svg" alt="fb-icon"></a>
+                            <a href="/"><img src="./assets/youtube-icon.svg" alt="youtube-icon"></a>
+                        </div>
+                    </div>
+                    <div class="footer-line"></div>
+                    <ul class="mr-5 lg:mr-0 sm:hidden">
+                        <li class="footer-li-flex">
+                            <a href="/">Μενού</a>
+                            <div class="footer-item-line"></div>
+                        </li>
+                        <li><a href="/">O Λογαριασμός μου</a></li>
+                        <li><a href="/">Εταιρεία</a></li>
+                        <li><a href="/">Nέα</a></li>
+                        <li><a href="/">Επικοινωνία</a></li>
+                    </ul>
+                    <div class="footer-line"></div>
+                    <ul class="mr-5 lg:mr-0">
+                        <li class="footer-li-flex">
+                            <a href="/">Κατηγορίες</a>
+                            <div class="footer-item-line"></div>
+                        </li>
+                        <li><a href="/">Α’ Ύλες</a></li>
+                        <li><a href="/">Pack</a></li>
+                        <li><a href="/">Εργαστηριακός Εξοπλισμός</a></li>
+                        <li><a href="/">Ατομική Φροντίδα - Ευεξία</a></li>
+                        <li><a href="/">Αναλώσιμα & Εξοπλισμός Ιατρείου</a></li>
+                        <li><a href="/">Ορθοπεδικά </a></li>
+                        <li><a href="/">Φροντίδα Βρεφών & Παιδιών</a></li>
+                        <li><a href="/">Υγεία - Ομορφιά</a></li>
+                        <li><a href="/">Ιατρικές Συσκευές</a></li>
+                        <li><a href="/">Διάφορα</a></li>
+                        <li><a href="/">Είδη Covid-19</a></li>
+                    </ul>
+                    <ul class="mr-5 lg:mr-0 hidden sm:block">
+                        <li class="footer-li-flex">
+                            <a href="/">Μενού</a>
+                            <div class="footer-item-line"></div>
+                        </li>
+                        <li><a href="/">O Λογαριασμός μου</a></li>
+                        <li><a href="/">Εταιρεία</a></li>
+                        <li><a href="/">Nέα</a></li>
+                        <li><a href="/">Επικοινωνία</a></li>
+                    </ul>
+                    <div class="footer-line"></div>
+                    <ul class="mr-5 lg:mr-0">
+                        <li class="footer-li-flex">
+                            <a href="/">Πληροφορίες</a>
+                            <div class="footer-item-line"></div>
+                        </li>
+                        <li><a href="/">Διαθεσιμότητα ειδών</a></li>
+                        <li><a href="/">Τρόποι Πληρωμής</a></li>
+                        <li><a href="/">Τρόποι Αποστολής</a></li>
+                        <li><a href="/">Ατομική Φροντίδα - Ευεξία</a></li>
+                    </ul>
+                    <div class="footer-line"></div>
+                    <div class="">
+                        <ul>
+                            <li class="font-bold"><a href="/">Syndesmos S.A.</a></li>
+                            <li><a href="/">Ψαρών 17 & Αιγίνης, 131 22 Ίλιον, Ελλάδα</a></li>
+                            <li class="font-bold"><a href="/"><span class="text-red">T</span> 210 269 3600 </a></li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li class="font-bold"><a href="/">GMP Facility</a></li>
+                            <li><a href="/">Νερατζούλας 10,</a></li>
+                            <li><a href="/">136 72 Αχαρναί, Ελλάδα</a></li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li class="font-bold"><a href="/"><span class="text-red">T</span> 210 269 3600</a></li>
+                            <li class="font-bold"><a href="/"><span class="text-red">E</span> info@syndesmossa.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-line"></div>
+                    <div class="flex sm:hidden items-center max-w-134 justify-between mt-1 mb-4">
                         <a href="/"><img src="./assets/insta-icon.svg" alt="insta-icon"></a>
                         <a href="/"><img src="./assets/fb-icon.svg" alt="fb-icon"></a>
                         <a href="/"><img src="./assets/youtube-icon.svg" alt="youtube-icon"></a>
                     </div>
                 </div>
-                <div class="footer-line"></div>
-                <ul class="mr-5 lg:mr-0 sm:hidden">
-                    <li class="footer-li-flex">
-                        <a href="/">Μενού</a>
-                        <div class="footer-item-line"></div>
-                    </li>
-                    <li><a href="/">O Λογαριασμός μου</a></li>
-                    <li><a href="/">Εταιρεία</a></li>
-                    <li><a href="/">Nέα</a></li>
-                    <li><a href="/">Επικοινωνία</a></li>
-                </ul>
-                <div class="footer-line"></div>
-                <ul class="mr-5 lg:mr-0">
-                    <li class="footer-li-flex">
-                        <a href="/">Κατηγορίες</a>
-                        <div class="footer-item-line"></div>
-                    </li>
-                    <li><a href="/">Α’ Ύλες</a></li>
-                    <li><a href="/">Pack</a></li>
-                    <li><a href="/">Εργαστηριακός Εξοπλισμός</a></li>
-                    <li><a href="/">Ατομική Φροντίδα - Ευεξία</a></li>
-                    <li><a href="/">Αναλώσιμα & Εξοπλισμός Ιατρείου</a></li>
-                    <li><a href="/">Ορθοπεδικά </a></li>
-                    <li><a href="/">Φροντίδα Βρεφών & Παιδιών</a></li>
-                    <li><a href="/">Υγεία - Ομορφιά</a></li>
-                    <li><a href="/">Ιατρικές Συσκευές</a></li>
-                    <li><a href="/">Διάφορα</a></li>
-                    <li><a href="/">Είδη Covid-19</a></li>
-                </ul>
-                <ul class="mr-5 lg:mr-0 hidden sm:block">
-                    <li class="footer-li-flex">
-                        <a href="/">Μενού</a>
-                        <div class="footer-item-line"></div>
-                    </li>
-                    <li><a href="/">O Λογαριασμός μου</a></li>
-                    <li><a href="/">Εταιρεία</a></li>
-                    <li><a href="/">Nέα</a></li>
-                    <li><a href="/">Επικοινωνία</a></li>
-                </ul>
-                <div class="footer-line"></div>
-                <ul class="mr-5 lg:mr-0">
-                    <li class="footer-li-flex">
-                        <a href="/">Πληροφορίες</a>
-                        <div class="footer-item-line"></div>
-                    </li>
-                    <li><a href="/">Διαθεσιμότητα ειδών</a></li>
-                    <li><a href="/">Τρόποι Πληρωμής</a></li>
-                    <li><a href="/">Τρόποι Αποστολής</a></li>
-                    <li><a href="/">Ατομική Φροντίδα - Ευεξία</a></li>
-                </ul>
-                <div class="footer-line"></div>
-                <div class="">
-                    <ul>
-                        <li class="font-bold"><a href="/">Syndesmos S.A.</a></li>
-                        <li><a href="/">Ψαρών 17 & Αιγίνης, 131 22 Ίλιον, Ελλάδα</a></li>
-                        <li class="font-bold"><a href="/"><span class="text-red">T</span> 210 269 3600 </a></li>
-                    </ul>
-                    <br>
-                    <ul>
-                        <li class="font-bold"><a href="/">GMP Facility</a></li>
-                        <li><a href="/">Νερατζούλας 10,</a></li>
-                        <li><a href="/">136 72 Αχαρναί, Ελλάδα</a></li>
-                    </ul>
-                    <br>
-                    <ul>
-                        <li class="font-bold"><a href="/"><span class="text-red">T</span> 210 269 3600</a></li>
-                        <li class="font-bold"><a href="/"><span class="text-red">E</span> info@syndesmossa.com</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-line"></div>
-                <div class="flex sm:hidden items-center max-w-134 justify-between mt-1 mb-4">
-                    <a href="/"><img src="./assets/insta-icon.svg" alt="insta-icon"></a>
-                    <a href="/"><img src="./assets/fb-icon.svg" alt="fb-icon"></a>
-                    <a href="/"><img src="./assets/youtube-icon.svg" alt="youtube-icon"></a>
-                </div>
             </div>
-        </div>
-        <div class="bg-white h-1 sm:mt-12 lg:mt-20"></div>
-        <div class="containers lg:px-4 xl:px-20">
-            <div class="flex flex-col lg:flex-row items-center justify-between py-6">
-                <div class="text-10 hidden sm:flex items-center mb-4 lg:mb-0">
-                    <p class="">
-                        © 2022 <span class="font-bold"> Syndesmos S.A. </span> All rights reserved
-                    </p>
-                    <a href="/"><span class="mx-2">|</span> Privacy Policy</a>
-                    <a href="/"><span class="mx-2">|</span> Cookie Policy</a>
-                    <a href="/"><span class="mx-2">|</span> Terms & Conditions</a>
-                </div>
-                <div class="flex items-center">
-                    <p class="text-9 mr-2">
-                        designed & developed by
-                    </p>
-                    <img src="./assets/footer-img-text.png" alt="footer-img-text" class="w-170">
-                </div>
+            <div class="bg-white h-1 sm:mt-12 lg:mt-20"></div>
+            <div class="containers lg:px-4 xl:px-20">
+                <div class="flex flex-col lg:flex-row items-center justify-between py-6">
+                    <div class="text-10 hidden sm:flex items-center mb-4 lg:mb-0">
+                        <p class="">
+                            © 2022 <span class="font-bold"> Syndesmos S.A. </span> All rights reserved
+                        </p>
+                        <a href="/"><span class="mx-2">|</span> Privacy Policy</a>
+                        <a href="/"><span class="mx-2">|</span> Cookie Policy</a>
+                        <a href="/"><span class="mx-2">|</span> Terms & Conditions</a>
+                    </div>
+                    <div class="flex items-center">
+                        <p class="text-9 mr-2">
+                            designed & developed by
+                        </p>
+                        <img src="./assets/footer-img-text.png" alt="footer-img-text" class="w-170">
+                    </div>
 
+                </div>
             </div>
-        </div>
+        </footer>
         <div class="p-4 bg-white items-center flex justify-between sm:hidden">
             <img src="./assets/menu.svg" alt="menu" class="">
             <img src="./assets/search.png" alt="search" class="">
@@ -290,6 +354,7 @@
         </div>
         </div>
     </footer>
+    <!-- FOOTER -->
 </body>
 
 </html>
