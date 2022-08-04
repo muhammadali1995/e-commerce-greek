@@ -27,6 +27,11 @@ body {
         @apply text-[28px] font-medium text-white
     }
 
+    .text-16 {
+        @apply text-black font-bold
+    }
+
+
     .text-26 {
         @apply text-[#212121] text-[26px]
     }
@@ -88,7 +93,7 @@ body {
     }
 
     .slider-title {
-       @apply md:text-[32px] text-[22px]
+        @apply md:text-[32px] text-[22px]
     }
 
     .slider-btn {
@@ -123,7 +128,7 @@ body {
     }
 
     .slider {
-       @apply flex items-center flex-col text-center max-w-[150px] md:max-w-none
+        @apply flex items-center flex-col text-center max-w-[150px] md:max-w-none
     }
 
     .slider p {
@@ -137,11 +142,28 @@ body {
     .banner-title {
         @apply text-[#009289] text-xl text-center my-16
     }
-    .insta-hover a{
-        @apply relative 
-    }
-}
 
-.input[type="radio"]:checked {
-    background-color: red;
+    .insta-hover a{
+        @apply relative
+    }
+
+    .insta-img {
+        @apply w-254 max-w-none sm:max-w-full
+    }
+
+    .insta-items {
+        @apply absolute hidden bg-black opacity-40 h-full w-full items-center justify-center
+    }
+
+    .hr-line {
+        @apply w-px h-122 bg-hr-color mx-2 lg:mx-0 hidden lg:block
+    }
+
+    .label {
+        @apply text-center sm:px-8 md:px-5 lg:px-0 pt-8
+    }
+
+    .covid-count {
+        @apply px-4 lg:px-8 xl:px-16 mt-[34px] md:mt-16 py-2 lg:py-7 border border-light-gray  flex flex-wrap items-start justify-evenly lg:justify-between
+    }
 }
