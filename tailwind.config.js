@@ -33,6 +33,7 @@ module.exports = {
       },
       spacing: {
         18: '72px',
+        29: '29px',
       },
       backgroundImage: {
         'footer': "url('./assets/bg-footer.jpg')",
