@@ -12,6 +12,8 @@ module.exports = {
         "black-light": "#7c7c7c",
         "black": "#212121",
         "line-color": "#e6e6e6",
+        "light-gray": "#bdbdbd",
+        "hr-color": "#bdbdbd",
       },
       maxWidth: {
         134: '134px',
@@ -21,6 +23,9 @@ module.exports = {
         170: '170px',
         407: '407px',
         254: '254px',
+      },
+      height: {
+        122: '122px',
       },
       maxWidth: {
         134: '134px',

@@ -558,6 +558,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.text-16 {
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(33 33 33 / var(--tw-text-opacity));
+}
+
 .text-26 {
   font-weight: 600;
   color: rgb(124 124 124 / var(--tw-text-opacity));
@@ -884,6 +890,111 @@ video {
   position: relative;
 }
 
+.insta-img {
+  width: 254px;
+  max-width: none;
+}
+
+@media (min-width: 640px) {
+  .insta-img {
+    max-width: 100%;
+  }
+}
+
+.insta-items {
+  position: absolute;
+  display: none;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 33 33 / var(--tw-bg-opacity));
+  opacity: 0.4;
+}
+
+.hr-line {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  display: none;
+  height: 122px;
+  width: 1px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(189 189 189 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 1024px) {
+  .hr-line {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+  }
+}
+
+.label {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .label {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .label {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .label {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.covid-count {
+  margin-top: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(189 189 189 / var(--tw-border-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .covid-count {
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .covid-count {
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .covid-count {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
 .discount-img {
   display: flex;
   min-height: 100%;
@@ -959,6 +1070,14 @@ video {
   }
 }
 
+.input[type="radio"]:checked {
+  background-color: red;
+}
+
+.text-white-im * {
+  color: white !important;
+}
+
 .absolute {
   position: absolute;
 }
@@ -973,6 +1092,18 @@ video {
 
 .-right-4 {
   right: -1rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.z-30 {
+  z-index: 30;
 }
 
 .mx-auto {
@@ -1069,8 +1200,20 @@ video {
   margin-bottom: 1.75rem;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-18 {
+  margin-top: 72px;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-18 {
+  margin-bottom: 72px;
 }
 
 .mb-8 {
@@ -1103,14 +1246,6 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
-}
-
-.mt-18 {
-  margin-top: 72px;
 }
 
 .block {
@@ -1204,10 +1339,6 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
@@ -1405,13 +1536,13 @@ video {
   text-align: center;
 }
 
-.text-18 {
-  font-size: 18px;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-18 {
+  font-size: 18px;
 }
 
 .font-bold {
@@ -1428,14 +1559,14 @@ video {
   color: rgb(33 33 33 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-black-light {
   --tw-text-opacity: 1;
   color: rgb(124 124 124 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .opacity-40 {
@@ -1467,14 +1598,6 @@ video {
 
 body {
   font-family: 'Regular';
-}
-
-.input[type="radio"]:checked {
-  background-color: red;
-}
-
-.text-white-im * {
-  color: white !important;
 }
 
 @media (min-width: 640px) {
@@ -1512,12 +1635,12 @@ body {
     margin-left: 1.25rem;
   }
 
-  .md\:mr-2 {
-    margin-right: 0.5rem;
-  }
-
   .md\:mt-7 {
     margin-top: 1.75rem;
+  }
+
+  .md\:mr-2 {
+    margin-right: 0.5rem;
   }
 
   .md\:block {
