@@ -118,5 +118,23 @@ body {
         @apply bg-[url(./assets/bg-footer-m.jpg)] sm:bg-[url(./assets/bg-footer.jpg)] bg-cover bg-no-repeat
     }
 
+    .arrow-btn {
+        @apply w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-[0px_3px_6px_#00000029] absolute top-[88px]
+    }
 
+    .slider {
+       @apply flex items-center flex-col text-center max-w-[150px] md:max-w-none
+    }
+
+    .slider p {
+        @apply mt-4 text-[#212121] max-w-[197px] text-xs md:text-base
+    }
+
+    .slider img {
+    @apply w-[197px!important] h-[197px!important] object-cover
+    }
+
+    .banner-title {
+        @apply text-[#009289] text-xl text-center my-16
+    }
 }
