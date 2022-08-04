@@ -44,7 +44,7 @@ body {
     }
 
     .text-14 {
-        @apply text-xs xl:text-sm font-light text-gray-black
+        @apply text-xs xl: text-sm font-light text-gray-black
     }
 
     .containers {
@@ -52,23 +52,23 @@ body {
     }
 
     .spray-hr {
-        @apply md:mt-12 mt-9 h-1 bg-[#E6E6E6]
+        @apply md: mt-12 mt-9 h-1 bg-[#E6E6E6]
     }
 
     .spray-title {
-        @apply mt-3 font-bold text-xs md:text-base
+        @apply mt-3 font-bold text-xs md: text-base
     }
 
     .spray-subtitle {
-        @apply mt-1 text-[#5A5A5A] md:text-sm text-xs
+        @apply mt-1 text-[#5A5A5A] md: text-sm text-xs
     }
 
     .spray-content {
-        @apply text-[#999999] md:text-sm text-[10px] md:mt-8 mt-2
+        @apply text-[#999999] md: text-sm text-[10px] md:mt-8 mt-2
     }
 
     .spray-img {
-        @apply md:w-36 md:h-72 w-36 h-36 object-contain
+        @apply md: w-36 md:h-72 w-36 h-36 object-contain
     }
 
     .text-10 {
@@ -80,15 +80,15 @@ body {
     }
 
     .slide {
-        @apply lg:max-w-[1008px] max-w-[90%] bg-no-repeat bg-cover h-[448px] flex flex-col justify-between items-center md:items-start p-7 text-white mx-auto
+        @apply lg: max-w-[1008px] max-w-[90%] bg-no-repeat bg-cover h-[448px] flex flex-col justify-between items-center md:items-start p-7 text-white mx-auto
     }
 
     .slider-subtitle {
-        @apply md:text-[26px] text-[18px]
+        @apply md: text-[26px] text-[18px]
     }
 
     .slider-title {
-       @apply md:text-[32px] text-[22px]
+        @apply md: text-[32px] text-[22px]
     }
 
     .slider-btn {
@@ -102,12 +102,13 @@ body {
     .slider-pagination-active {
         @apply w-3 h-3 rounded-full bg-red cursor-pointer
     }
+
     .footer-line {
         @apply bg-dark h-px my-3
     }
 
     .footer-item-line {
-        @apply bg-gray-black w-2 h-[2px] block sm:hidden -mr-4
+        @apply bg-gray-black w-2 h-[2px] block sm: hidden -mr-4
     }
 
     .footer-li-flex {
@@ -115,7 +116,7 @@ body {
     }
 
     .footer-bg {
-        @apply bg-[url(./assets/bg-footer-m.jpg)] sm:bg-[url(./assets/bg-footer.jpg)] bg-cover bg-no-repeat
+        @apply bg-[url(./assets/bg-footer-m.jpg)] sm: bg-[url(./assets/bg-footer.jpg)] bg-cover bg-no-repeat
     }
 
     .arrow-btn {
@@ -123,18 +124,26 @@ body {
     }
 
     .slider {
-       @apply flex items-center flex-col text-center max-w-[150px] md:max-w-none
+        @apply flex items-center flex-col text-center max-w-[150px] md: max-w-none
     }
 
     .slider p {
-        @apply mt-4 text-[#212121] max-w-[197px] text-xs md:text-base
+        @apply mt-4 text-[#212121] max-w-[197px] text-xs md: text-base
     }
 
     .slider img {
-    @apply w-[197px!important] h-[197px!important] object-cover
+        @apply w-[197px !important] h-[197px !important] object-cover
     }
 
     .banner-title {
         @apply text-[#009289] text-xl text-center my-16
     }
+
+    .insta-hover a {
+        @apply relative
+    }
+}
+
+.input[type="radio"]:checked {
+    background-color: red;
 }
