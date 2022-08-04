@@ -74,4 +74,28 @@ body {
     .text-9 {
         @apply text-[9px] text-gray-light
     }
+
+    .slide {
+        @apply lg:max-w-[1008px] max-w-[90%] bg-no-repeat bg-cover h-[448px] flex flex-col justify-between items-center md:items-start p-7 text-white mx-auto
+    }
+
+    .slider-subtitle {
+        @apply md:text-[26px] text-[18px]
+    }
+
+    .slider-title {
+       @apply md:text-[32px] text-[22px]
+    }
+
+    .slider-btn {
+        @apply border border-white p-4 text-sm
+    }
+
+    .slider-pagination {
+        @apply w-3 h-3 rounded-full bg-gray-400 cursor-pointer
+    }
+
+    .slider-pagination-active {
+        @apply w-3 h-3 rounded-full bg-red cursor-pointer
+    }
 }

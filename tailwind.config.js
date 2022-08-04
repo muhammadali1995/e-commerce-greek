@@ -21,6 +21,10 @@ module.exports = {
       },
       spacing:{
         18: '72px',
+      },
+      backgroundImage:{
+        'footer':"url('./assets/bg-footer.jpg')",
+        'slide1':"url('./assets/slider1.png')"
       }
     },
   },
