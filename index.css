@@ -28,7 +28,7 @@ body {
     }
 
     .text-26 {
-        @apply text-[#212121] text-[26px]
+        @apply text-[#212121] md:text-[26px] text-18
     }
 
     .text-24 {
@@ -140,8 +140,28 @@ body {
     .insta-hover a{
         @apply relative 
     }
+
+    .discount-img {
+        @apply flex items-start justify-between flex-col md:py-5 p-3 md:px-4 text-black bg-center bg-no-repeat min-h-full
+    }
+
+    .discount {
+        @apply bg-[#212121] rounded md:px-3 md:py-1 md:text-sm text-[#E6E6E6] py-px px-1 text-xs
+    }
+
+    .discount-img h5 {
+        @apply md:text-18 text-base
+    }
+
+    .discount-img p {
+       @apply md:mt-2 md:text-sm max-w-[231px] text-xs
+    }
 }
 
 .input[type="radio"]:checked {
     background-color: red;
+}
+
+.text-white-im * {
+    color: white !important;
 }
