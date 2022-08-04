@@ -118,7 +118,9 @@ body {
         @apply bg-[url(./assets/bg-footer-m.jpg)] sm:bg-[url(./assets/bg-footer.jpg)] bg-cover bg-no-repeat
     }
 
-
+    .insta-hover a{
+        @apply relative 
+    }
 }
 
 .input[type="radio"]:checked {
