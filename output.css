@@ -1359,6 +1359,18 @@ video {
   margin-bottom: 1rem;
 }
 
+.mt-116 {
+  margin-top: 116px;
+}
+
+.mt-68 {
+  margin-top: 68px;
+}
+
+.-mb-12 {
+  margin-bottom: -3rem;
+}
+
 .block {
   display: block;
 }
@@ -1840,6 +1852,14 @@ body {
 
   .md\:mr-2 {
     margin-right: 0.5rem;
+  }
+
+  .md\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .md\:-mb-12 {
+    margin-bottom: -3rem;
   }
 
   .md\:block {
