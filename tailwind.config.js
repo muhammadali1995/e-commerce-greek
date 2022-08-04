@@ -15,14 +15,16 @@ module.exports = {
         "light-gray": "#bdbdbd",
         "hr-color": "#bdbdbd",
       },
-      maxWidth: {
-        134: '134px',
-      },
       width: {
         800: '800px',
         170: '170px',
         407: '407px',
         254: '254px',
+        182: '182px',
+        695: '695px',
+        56: '56%',
+        67: '67%',
+        78: '78%'
       },
       height: {
         122: '122px',
@@ -30,9 +32,14 @@ module.exports = {
       maxWidth: {
         134: '134px',
         1544: '1544px',
+        850:'850px'
       },
       spacing: {
         18: '72px',
+        61: '61px',
+        3.5: '14px',
+        54: '54px',
+        68:'68px'
       },
       backgroundImage: {
         'footer': "url('./assets/bg-footer.jpg')",
@@ -45,10 +52,13 @@ module.exports = {
       },
       minHeight: {
         761: '761px',
-        345:'345px'
+        345: '345px'
       },
       fontSize: {
         18: '18px'
+      },
+      maxHeight: {
+        417: '417px'
       }
     },
   },

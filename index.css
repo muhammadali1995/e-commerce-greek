@@ -69,11 +69,11 @@ body {
     }
 
     .spray-content {
-        @apply text-[#999999] md:text-sm text-[10px] md:mt-8 mt-2
+        @apply text-[#999999] md:text-sm text-[10px]
     }
 
     .spray-img {
-        @apply md:w-36 md:h-72 w-36 h-36 object-contain
+        @apply md:w-36 md:h-72 w-36 h-36 object-none mx-auto
     }
 
     .text-10 {
@@ -85,7 +85,7 @@ body {
     }
 
     .slide {
-        @apply lg:max-w-[1008px] max-w-[90%] bg-no-repeat bg-cover h-[448px] flex flex-col justify-between items-center md:items-start p-7 text-white mx-auto
+        @apply lg:max-w-[1132px] -mt-1 max-w-[90%] bg-no-repeat bg-cover h-[448px] flex flex-col justify-between items-center md:items-start py-7 px-12 text-white mx-auto
     }
 
     .slider-subtitle {
@@ -93,11 +93,11 @@ body {
     }
 
     .slider-title {
-        @apply md:text-[32px] text-[22px]
+        @apply md:text-[32px] text-[22px] max-w-[400px] font-bold -mt-2
     }
 
     .slider-btn {
-        @apply border border-white p-4 text-sm
+        @apply border border-white p-4 text-sm -tracking-[1.2px] mb-2.5
     }
 
     .slider-pagination {
@@ -183,10 +183,39 @@ body {
     .discount-img p {
         @apply md:mt-2 md:text-sm max-w-[231px] text-xs
     }
+
+    .seller {
+        @apply md:border md:border-[#E6E6E6] justify-end md:justify-start md:min-h-0 min-h-[280px] max-w-[495px] md:p-6 flex items-center flex-col md:flex-row
+    }
+
+    .seller div {
+        @apply md:border-l md:border-l-[#E6E6E6] md:ml-11 md:pl-4 border-t border-t-[#E6E6E6] pt-2 mt-10 md:border-t-0
+    }
+
+    .seller h3 {
+        @apply font-bold text-xs md:text-base
+    }
+
+    .seller p {
+        @apply text-[#5A5A5A] md:text-sm text-xs font-normal
+    }
+
+    .seller-content{
+        @apply -tracking-[0.35px] mt-6 text-[10px] md:text-sm
+    }
+
+    .seller img{
+        @apply w-18 object-cover
+    }
+
+    .dot {
+        @apply absolute bg-red rounded-full -top-3 w-5 h-5 flex items-center justify-center text-white text-xs -right-3
+    }
+}
 .input[type="radio"]:checked {
     background-color: red;
 }
 
 .text-white-im * {
     color: white !important;
-}}
+}
