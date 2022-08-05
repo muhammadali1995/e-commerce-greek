@@ -39,6 +39,7 @@ module.exports = {
         18: '72px',
         80: '80px',
         20: '18px',
+        21: '21px',
         22: '22px',
         61: '61px',
         3.5: '14px',
@@ -49,6 +50,9 @@ module.exports = {
         120:'120px',
         128:'128px',
         140:'140px',
+      },
+      lineHeight: {
+        21: '21px'
       },
       backgroundImage: {
         'footer': "url('./assets/bg-footer.jpg')",
