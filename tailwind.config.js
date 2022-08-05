@@ -20,6 +20,7 @@ module.exports = {
         170: '170px',
         407: '407px',
         254: '254px',
+        240: '240px',
         182: '182px',
         695: '695px',
         56: '56%',
@@ -36,12 +37,18 @@ module.exports = {
       },
       spacing: {
         18: '72px',
+        80: '80px',
+        20: '18px',
+        22: '22px',
         61: '61px',
         3.5: '14px',
         54: '54px',
         68:'68px',
         29: '29px',
-        116:'116px'
+        116:'116px',
+        120:'120px',
+        128:'128px',
+        140:'140px',
       },
       backgroundImage: {
         'footer': "url('./assets/bg-footer.jpg')",

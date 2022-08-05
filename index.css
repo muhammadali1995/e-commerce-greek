@@ -28,7 +28,7 @@ body {
     }
 
     .text-16 {
-        @apply text-black font-bold
+        @apply text-black font-[Bold]
     }
 
 
@@ -49,11 +49,11 @@ body {
     }
 
     .text-14 {
-        @apply text-xs xl:text-sm font-light text-gray-black
+        @apply text-xs text-gray-black
     }
 
     .section-container {
-        @apply max-w-1544 w-full mx-auto px-4 2xl:px-0
+        @apply max-w-1544 w-full mx-auto md:px-4 2xl:px-0
     }
 
     .spray-hr {
@@ -160,16 +160,20 @@ body {
         @apply absolute hidden bg-black opacity-40 h-full w-full items-center justify-center
     }
 
+    .insta-input {
+        @apply py-3 pl-4 md:pl-7 w-full md:w-[250px] lg:w-407 placeholder:text-xs placeholder:text-black bg-transparent md:mr-2 border border-black
+    }
+
     .hr-line {
         @apply w-px h-122 bg-hr-color mx-2 lg:mx-0 hidden lg:block
     }
 
     .label {
-        @apply text-center sm:px-8 md:px-5 lg:px-0 pt-8
+        @apply text-center sm:px-8 md:px-8 lg:px-2 2xl:px-0 md:pt-8
     }
 
     .covid-count {
-        @apply px-4 lg:px-8 xl:px-16 mt-[34px] md:mt-16 py-2 lg:py-7 border border-light-gray flex flex-wrap items-start justify-evenly lg:justify-between
+        @apply mx-4 md:mx-0 lg:px-8 xl:px-16 mt-[34px] md:mt-[64px] py-2 lg:py-6 border border-light-gray flex flex-wrap items-start justify-evenly lg:justify-between
     }
 
     .discount-img {
