@@ -201,7 +201,7 @@ body {
     }
 
     .seller div {
-        @apply md:border-l md:border-l-[#E6E6E6] md:ml-11 md:pl-4 border-t border-t-[#E6E6E6] pt-2 mt-10 md:border-t-0
+        @apply md:border-l md:border-l-[#E6E6E6] md:ml-11 md:pl-4 border-t border-t-[#E6E6E6] pt-2 mt-10 md:border-t-0 2xl:h-[118px] h-[150px]
     }
 
     .seller h3 {
