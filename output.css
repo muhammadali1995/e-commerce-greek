@@ -558,7 +558,7 @@ video {
 }
 
 .text-16 {
-  font-weight: 700;
+  font-family: Bold;
   --tw-text-opacity: 1;
   color: rgb(33 33 33 / var(--tw-text-opacity));
 }
@@ -603,16 +603,8 @@ video {
 .text-14 {
   font-size: 0.75rem;
   line-height: 1rem;
-  font-weight: 300;
   --tw-text-opacity: 1;
   color: rgb(90 90 90 / var(--tw-text-opacity));
-}
-
-@media (min-width: 1280px) {
-  .text-14 {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
 }
 
 .section-container {
@@ -620,8 +612,13 @@ video {
   margin-right: auto;
   width: 100%;
   max-width: 1544px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .section-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -941,7 +938,6 @@ video {
 }
 
 .label {
-  padding-top: 2rem;
   text-align: center;
 }
 
@@ -954,12 +950,20 @@ video {
 
 @media (min-width: 768px) {
   .label {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
+  .label {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
   .label {
     padding-left: 0px;
     padding-right: 0px;
@@ -967,6 +971,8 @@ video {
 }
 
 .covid-count {
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-top: 34px;
   display: flex;
   flex-wrap: wrap;
@@ -975,15 +981,15 @@ video {
   border-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(189 189 189 / var(--tw-border-opacity));
-  padding-left: 1rem;
-  padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
 @media (min-width: 768px) {
   .covid-count {
-    margin-top: 4rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 64px;
   }
 }
 
@@ -992,8 +998,8 @@ video {
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
@@ -1299,7 +1305,7 @@ video {
 }
 
 .mt-20 {
-  margin-top: 5rem;
+  margin-top: 18px;
 }
 
 .mt-7 {
@@ -1878,7 +1884,7 @@ body {
   }
 
   .md\:w-80 {
-    width: 20rem;
+    width: 80px;
   }
 
   .md\:w-32 {
@@ -1940,7 +1946,7 @@ body {
   }
 
   .lg\:mt-20 {
-    margin-top: 5rem;
+    margin-top: 18px;
   }
 
   .lg\:block {
@@ -1979,8 +1985,8 @@ body {
   }
 
   .xl\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 18px;
+    padding-right: 18px;
   }
 }
 
