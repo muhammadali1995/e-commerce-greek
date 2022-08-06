@@ -3,231 +3,242 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Regular';
-    src: url('./assets/manrope/manrope-regular.otf');
-}
-
-
-@font-face {
-    font-family: 'Semibold';
-    src: url('./assets/manrope/manrope-semibold.otf');
+    font-family: "Regular";
+    src: url("./assets/manrope/manrope-regular.otf");
 }
 
 @font-face {
-    font-family: 'Bold';
-    src: url('./assets/manrope/manrope-bold.otf');
+    font-family: "Semibold";
+    src: url("./assets/manrope/manrope-semibold.otf");
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url("./assets/manrope/manrope-bold.otf");
 }
 
 body {
-    font-family: 'Regular';
+    font-family: "Regular";
 }
 
 @layer components {
     .max-w-1920 {
-        @apply max-w-[1920px] mx-auto
-        }
+        @apply max-w-[1920px] mx-auto;
+    }
 
     .text-28 {
-        @apply text-[28px] font-medium text-white
+        @apply text-[28px] font-medium text-white;
     }
 
     .text-16 {
-        @apply text-black font-[Bold]
+        @apply text-black font-[Bold];
     }
 
-
     .text-26 {
-        @apply text-[#212121] md:text-[26px] text-18
+        @apply text-[#212121] md: text-[26px] text-18;
     }
 
     .text-24 {
-        @apply text-2xl font-normal text-white
+        @apply text-2xl font-normal text-white;
     }
 
     .text-12 {
-        @apply text-xs font-semibold text-white
+        @apply text-xs font-semibold text-white;
     }
 
     .text-18 {
-        @apply text-[18px] font-semibold text-black-light
+        @apply text-[18px] font-semibold text-black-light;
     }
 
     .text-14 {
-        @apply text-xs text-gray-black
+        @apply text-xs text-gray-black;
     }
 
     .section-container {
-        @apply max-w-1544 w-full mx-auto md:px-4 2xl:px-0
+        @apply max-w-1544 w-full mx-auto md: px-4 2xl:px-0;
     }
 
     .spray-hr {
-        @apply md:mt-12 mt-9 h-1 bg-[#E6E6E6]
+        @apply md: mt-12 mt-9 h-1 bg-[#E6E6E6];
     }
 
     .spray-title {
-        @apply mt-3 font-bold text-xs md:text-base
+        @apply mt-3 font-bold text-xs md: text-base;
     }
 
     .spray-subtitle {
-        @apply mt-1 text-[#5A5A5A] md:text-sm text-xs
+        @apply mt-1 text-[#5A5A5A] md: text-sm text-xs;
     }
 
     .spray-content {
-        @apply text-[#999999] md:text-sm text-[10px]
+        @apply text-[#999999] md: text-sm text-[10px];
     }
 
-    .spray-img {
-        @apply md:w-36 md:h-72 w-36 h-36 object-none mx-auto
+    .spray-img-wrapper {
+        @apply md: h-72 h-36 object-none mx-auto;
+    }
+
+    .spray-img-wrapper img {
+        @apply max-h-full mx-auto w-auto h-full;
     }
 
     .text-10 {
-        @apply text-[10px] text-gray-light
+        @apply text-[10px] text-gray-light;
     }
 
     .text-9 {
-        @apply text-[9px] text-gray-light
+        @apply text-[9px] text-gray-light;
     }
 
     .slide {
-        @apply lg:max-w-[1132px] -mt-1 max-w-[90%] bg-no-repeat bg-cover h-[448px] flex flex-col justify-between items-center md:items-start py-7 px-12 text-white mx-auto
+        @apply lg: max-w-[1132px] -mt-1 max-w-[90%] bg-no-repeat bg-cover h-[448px] flex flex-col justify-between items-center md:items-start py-7 px-12 text-white mx-auto;
     }
 
     .slider-subtitle {
-        @apply md:text-[26px] text-[18px]
+        @apply md: text-[26px] text-[18px];
     }
 
     .slider-title {
-        @apply md:text-[32px] text-[22px] max-w-[400px] font-bold -mt-2
+        @apply md: text-[32px] text-[22px] max-w-[400px] font-bold -mt-2;
     }
 
     .slider-btn {
-        @apply border border-white p-4 text-sm -tracking-[1.2px] mb-2.5
+        @apply border border-white p-4 text-sm -tracking-[1.2px] mb-2.5;
     }
 
     .slider-pagination {
-        @apply w-3 h-3 rounded-full bg-gray-black cursor-pointer
+        @apply w-3 h-3 rounded-full bg-gray-black cursor-pointer;
     }
 
     .slider-pagination-active {
-        @apply w-3 h-3 rounded-full bg-red cursor-pointer
+        @apply w-3 h-3 rounded-full bg-red cursor-pointer;
     }
 
     .footer-line {
-        @apply bg-dark h-px my-3
+        @apply bg-dark h-px my-3;
     }
 
     .footer-item-line {
-        @apply bg-gray-black w-2 h-[2px] block sm:hidden -mr-4
+        @apply bg-gray-black w-2 h-[2px] block sm: hidden -mr-4;
     }
 
     .footer-li-flex {
-        @apply font-bold flex items-center justify-between
+        @apply font-bold flex items-center justify-between;
     }
 
     .footer-bg {
-        @apply bg-[url(./assets/bg-footer-m.jpg)] sm:bg-[url(./assets/bg-footer.jpg)] bg-cover bg-no-repeat
+        @apply bg-[url(./assets/bg-footer-m.jpg)] sm: bg-[url(./assets/bg-footer.jpg)] bg-cover bg-no-repeat;
     }
 
     .arrow-btn {
-        @apply w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-[0px_3px_6px_#00000029] absolute top-[88px]
+        @apply w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-[0px_3px_6px_#00000029] absolute top-[88px];
     }
 
     .arrow-img {
-        @apply absolute 2xl:right-5 right-2 bottom-3 z-30 2xl:w-9 w-5
+        @apply absolute 2xl: right-5 right-2 bottom-3 z-30 2xl:w-9 w-5;
     }
 
     .slider {
-        @apply flex items-center flex-col text-center max-w-[150px] md:max-w-none
+        @apply flex items-center flex-col text-center max-w-[150px] md: max-w-none;
     }
 
     .slider p {
-        @apply mt-4 text-[#212121] max-w-[197px] text-xs md:text-base
+        @apply mt-4 text-[#212121] max-w-[197px] text-xs md: text-base;
     }
 
     .slider img {
-        @apply w-[197px!important] h-[197px!important] object-cover
+        @apply w-[197px !important] h-[197px !important] object-cover;
     }
 
     .banner-title {
-        @apply text-[#009289] text-xl text-center my-16
+        @apply text-[#009289] text-xl text-center my-16;
     }
 
     .insta-hover a {
-        @apply relative
+        @apply relative;
     }
 
     .insta-img {
-        @apply w-254 max-w-none sm:max-w-full
+        @apply w-254 max-w-none sm: max-w-full;
     }
 
     .insta-items {
-        @apply absolute hidden bg-black opacity-40 h-full w-full items-center justify-center
+        @apply absolute hidden bg-black opacity-40 h-full w-full items-center justify-center;
     }
 
     .insta-input {
-        @apply py-2 sm:py-3 pl-4 md:pl-7 w-full md:w-[250px] lg:w-407 placeholder:text-xs placeholder:text-black bg-transparent md:mr-2 border border-black
+        @apply py-2 sm: py-3 pl-4 md:pl-7 w-full md:w-[250px] lg:w-407 placeholder:text-xs placeholder:text-black bg-transparent md:mr-2 border border-black;
     }
 
     .hr-line {
-        @apply w-px h-122 bg-hr-color mx-2 lg:mx-0 hidden lg:block
+        @apply w-px h-122 bg-hr-color mx-2 lg: mx-0 hidden lg:block;
     }
 
     .label {
-        @apply text-center sm:px-8 md:px-8 lg:px-2 2xl:px-0 md:pt-8
+        @apply text-center sm: px-8 md:px-8 lg:px-2 2xl:px-0 md:pt-8;
     }
 
     .covid-count {
-        @apply mx-4 md:mx-0 lg:px-8 xl:px-16 mt-[34px] md:mt-[64px] py-2 lg:py-6 border border-light-gray flex flex-wrap items-start justify-evenly lg:justify-between
+        @apply mx-4 md: mx-0 lg:px-8 xl:px-16 mt-[34px] md:mt-[64px] py-2 lg:py-6 border border-light-gray flex flex-wrap items-start justify-evenly lg:justify-between;
     }
 
     .discount-img {
-        @apply flex items-start justify-between flex-col md:py-5 p-3 md:px-4 text-black bg-center bg-no-repeat min-h-full
+        @apply flex items-start justify-between flex-col md: py-5 p-3 md:px-4 text-black bg-center bg-no-repeat min-h-full;
     }
 
     .discount {
-        @apply bg-[#212121] rounded md:px-3 md:py-1 md:text-sm text-[#E6E6E6] py-px px-1 text-xs
+        @apply bg-[#212121] rounded md: px-3 md:py-1 md:text-sm text-[#E6E6E6] py-px px-1 text-xs;
     }
 
     .discount-img h5 {
-        @apply md:text-18 text-base
+        @apply md: text-18 text-base;
     }
 
     .discount-img p {
-        @apply md:mt-2 md:text-sm max-w-[231px] text-xs
+        @apply md: mt-2 md:text-sm max-w-[231px] text-xs;
     }
 
     .seller {
-        @apply md:border md:border-[#E6E6E6] justify-end md:justify-start md:min-h-0 min-h-[280px] max-w-[495px] md:p-6 flex items-center flex-col md:flex-row
+        @apply md: border md:border-[#E6E6E6] justify-end md:justify-start md:min-h-0 min-h-[280px] max-w-[495px] md:p-6 flex items-center flex-col md:flex-row;
     }
 
     .seller div {
-        @apply md:border-l md:border-l-[#E6E6E6] md:ml-11 md:pl-4 border-t border-t-[#E6E6E6] pt-2 mt-10 md:border-t-0 2xl:h-[118px] h-[150px]
+        @apply md: border-l md:border-l-[#E6E6E6] md:ml-11 md:pl-4 border-t border-t-[#E6E6E6] pt-2 md:border-t-0 2xl:h-[118px] h-[150px];
     }
 
     .seller h3 {
-        @apply font-bold text-xs md:text-base
+        @apply font-bold text-xs md: text-base;
     }
 
     .seller p {
-        @apply text-[#5A5A5A] md:text-sm text-xs font-normal
+        @apply text-[#5A5A5A] md: text-sm text-xs font-normal;
     }
 
-    .seller-content{
-        @apply -tracking-[0.35px] mt-6 text-[10px] md:text-sm
+    .seller-content {
+        @apply -tracking-[0.35px] mt-6 text-[10px] md: text-sm;
     }
 
-    .seller img{
-        @apply w-18 object-cover
+    .seller img {
+        @apply w-18 object-cover;
     }
 
     .dot {
-        @apply absolute bg-red rounded-full -top-3 w-5 h-5 flex items-center justify-center text-white text-xs -right-3
+        @apply absolute bg-red rounded-full -top-3 w-5 h-5 flex items-center justify-center text-white text-xs -right-3;
     }
 }
+
 .input[type="radio"]:checked {
     background-color: red;
 }
 
 .text-white-im * {
     color: white !important;
+}
+
+.hover>div:hover {
+    background-color: #F1F1F1;
+}
+
+.hover>div:hover, .hover .spray-content {
+   color: red;
 }
