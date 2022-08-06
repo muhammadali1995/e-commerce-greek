@@ -23,6 +23,10 @@ body {
 }
 
 @layer components {
+    .max-w-1920 {
+        @apply max-w-[1920px] mx-auto
+        }
+
     .text-28 {
         @apply text-[28px] font-medium text-white
     }
