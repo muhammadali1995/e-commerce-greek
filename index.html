@@ -134,8 +134,8 @@
     <!-- HEADER -->
 
     <!-- SPRAY -->
-    <section class="section-container px-4">
-        <div class="flex mt-4 md:mt-10 items-center justify-between">
+    <section class="section-container px-3">
+        <div class="flex mt-4 md:mt-14 items-center justify-between">
             <h3 class="text-26">Νέα Προϊόντα</h3>
             <img class="block md:hidden" src="./assets/arrow.png" alt="arrow">
         </div>
@@ -281,7 +281,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full flex items-center justify-center mt-8">
+        <div class="w-full flex items-center justify-center mt-8 md:hidden">
             <button class="p-4 text-center border-black border text-sm text-black">δείτε περισσότερα</button>
         </div>
     </section>
@@ -301,10 +301,10 @@
             <div class="slider-pagination-active ml-3"></div>
             <div class="slider-pagination ml-3"></div>
         </div>
-        <div class="max-w-1544 mx-auto 2xl:px-0 px-4 mt-8 md:mt-116">
-            <h4 class="text-26">Διάλεξε κατηγορία</h4>
+        <div class="max-w-1544 mx-auto 2xl:px-0 md:px-4 mt-8 md:mt-116">
+            <h4 class="text-26 pl-4 md:px-0">Διάλεξε κατηγορία</h4>
             <div class="flex items-center justify-center mt-6 relative">
-                <button class="arrow-btn rotate-180 -left-4">
+                <button class="arrow-btn rotate-180 left-4 md:-left-4">
                     <img src="./assets/arrow.png" alt="arrow">
                 </button>
                 <div class="slickWrapper max-w-full">
@@ -349,7 +349,7 @@
                         <p>ΙΑΤΡΙΚΕΣ ΣΥΣΚΕΥΕΣ</p>
                     </div>
                 </div>
-                <button class="arrow-btn -right-4 swiper-button-next">
+                <button class="arrow-btn right-4 md:-right-4 swiper-button-next">
                     <img src="./assets/arrow.png" alt="arrow">
                 </button>
             </div>
@@ -358,7 +358,7 @@
     <!-- SLIDER -->
 
     <!-- BANNER -->
-    <div>
+    <div class="max-w-1544 mx-auto">
         <h4 class="banner-title">Όλες οι κατηγορίες</h4>
         <a href="/"><img src="./assets/banner.jpg" alt="banner" class="w-full hidden md:block"></a>
         <a href="/"><img src="./assets/banner-res.png" alt="banner" class="w-full block md:hidden"></a>
@@ -445,12 +445,17 @@
                     <p>Intense Bronze Lotion spf6</p>
                 </div>
             </a>
-            <h2 class="text-sm text-black-light font-semibold text-center mt-8 mb-7">Δείτε περισσότερα</h2>
+            <h2 class="text-sm text-black-light font-semibold text-center mt-8 mb-6">Δείτε περισσότερα</h2>
             <hr class="text-line-color">
         </div>
         <a href="/"> <img src="./assets/banner2.png" alt="banner" class="w-full mt-16 hidden md:block"></a>
-        <h3 class="text-26 text-black mt-68 mb-7">Γνωρίστε τα Brands</h3>
-        <div class="grid md:grid-cols-4 grid-cols-2 gap-7">
+        <h3 class="text-26 text-black mt-8 mb-4">Γνωρίστε τα Brands</h3>
+    </section>
+    <!-- DISCOUNT -->
+
+    <!-- SLIDER -->
+    <div class="max-w-1544 mx-auto">
+        <div class="md:grid-cols-4 grid-cols-2 gap-7 hidden md:grid">
             <a href="/"><img src="./assets/logo1.png" alt="logo"></a>
             <a href="/"> <img src="./assets/logo2.png" alt="logo"></a>
             <a href="/"><img src="./assets/logo3.png" alt="logo"></a>
@@ -460,11 +465,31 @@
             <a href="/"><img src="./assets/logo7.jpg" alt="logo"></a>
             <a href="/"><img src="./assets/logo8.jpg" alt="logo"></a>
         </div>
-        <h4 class="text-xl mt-8 text-black-light text-center">Δείτε περισσότερα</h4>
+        <div class="flex items-center justify-center mt-21 relative">
+            <button class="arrow-btn rotate-180 left-4 md:-left-4">
+                <img src="./assets/arrow.png" alt="arrow">
+            </button>
+            <div class="slickWrapper max-w-full">
+                <div class="slider ">
+                    <div> <img src="./assets/logo1.png" alt="logo1"></div>
+                </div>
+                <div class="slider ">
+                    <div><img src="./assets/logo2.png" alt="logo2"></div>
+                </div>
+                <div class="slider ">
+                    <div><img src="./assets/logo3.png" alt="logo3"></div>
+                </div>
+            </div>
+            <button class="arrow-btn right-4 md:-right-4 swiper-button-next">
+                <img src="./assets/arrow.png" alt="arrow">
+            </button>
+        </div>
+
+        <h4 class="text-sm md:text-xl font-semibold mt-21 text-black-light text-center">Δείτε περισσότερα</h4>
         <a href="/"><img src='./assets/banner3.png' alt="banner3" class="hidden mt-14 md:block w-full" /></a>
-        <a href="/"><img src='./assets/banner3-res.png' alt="banner3" class="block mt-3 md:hidden w-full" /></a>
-    </section>
-    <!-- DISCOUNT -->
+        <a href="/"><img src='./assets/banner3-res.png' alt="banner3" class="block mt-8 md:hidden w-full" /></a>
+    </div>
+    <!-- SLIDER -->
 
     <!-- SELLER -->
     <div class="max-w-1544 mx-auto px-4 2xl:px-0">
@@ -472,7 +497,7 @@
             <h3 class="text-26">Best Sellers</h3>
             <p class="hidden md:block">Όλα τα προϊόντα</p>
         </div>
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-7 mt-7">
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-7 mt-3 md:mt-7">
             <div class="seller">
                 <div>
                     <img src="./assets/seller1.png" alt="seller">
@@ -533,7 +558,7 @@
                     <p class="seller-content">3ply Type IIR BFE>98% με Λάστιχο 50τμχ</p>
                 </div>
             </div>
-            <div class="seller">
+            <div class="seller hidden md:block">
                 <div>
                     <img src="./assets/seller7.png" alt="seller">
                 </div>
@@ -543,7 +568,7 @@
                     <p class="seller-content">Συνδεθείτε για να δείτε την τιμή</p>
                 </div>
             </div>
-            <div class="seller">
+            <div class="seller hidden md:block">
                 <div>
                     <img src="./assets/seller8.png" alt="seller">
                 </div>
@@ -554,7 +579,7 @@
                 </div>
             </div>
 
-            <div class="seller">
+            <div class="seller hidden md:block">
                 <div>
                     <img src="./assets/seller9.png" alt="seller">
                 </div>
@@ -569,14 +594,14 @@
     <!-- SELLER -->
 
     <!-- PRODUCT -->
-    <div class="section-container mt-106">
-        <h1 class="text-xl">
+    <div class="max-w-1544 mx-auto px-1 2xl:px-0 mt-14">
+        <h1 class="text-sm ml-3 md:ml-0 md:text-xl font-semibold">
             Δείτε ακόμα <br>
             <span class="text-26">
                 Πρόσφατα άρθρα και νέα
             </span>
         </h1>
-        <div class="flex flex-col md:flex-row items-start justify-between mt-7">
+        <div class="flex flex-col md:flex-row items-start justify-between mt-4">
             <a href="/" class="relative w-1/2 hidden md:block">
                 <img src="./assets/product01.png" alt="product01">
                 <img src="./assets/arrow.svg" alt="arrow" class="arrow-img">
@@ -631,15 +656,16 @@
     <!-- PRODUCT -->
 
     <!-- COVID -->
-    <div class="section-container mt-80 mb-18">
+    <div class="max-w-1544 mx-auto mt-90 mb-18">
         <img src="./assets/covid.png" alt="covid" class="w-full hidden md:block">
         <img src="./assets/covid-m.png" alt="covid-m" class="w-full md:hidden">
-        <div class="covid-count pl-16">
+        <div class="covid-count md:pl-16 py-6">
             <div class="label">
                 <h1 class="font-bold text-black">Πανελλαδική αποστολή</h1>
                 <p class="text-sm text-gray-black">Επωφεληθείτε από τις χαμηλές τιμές.</p>
             </div>
             <hr class="hr-line">
+            <div class="hr-lines"></div>
             <div class="label">
                 <h1 class="font-bold text-black">Μόνο για Επαγγελματίες</h1>
                 <p class="text-sm text-gray-black">Η πρόσβαση στις τιμές των προϊόντων,<br class=""> απαιτεί έγκριση της
@@ -647,12 +673,14 @@
                 </p>
             </div>
             <hr class="hr-line">
+            <div class="hr-lines"></div>
             <div class="label">
                 <h1 class="font-bold text-black">3000+ προιόντα</h1>
                 <p class="text-sm text-gray-black">Αποκτήστε πρόσβαση σε πάνω από 3000 <br class=""> παραφαρμακευτικά
                     προϊόντα.</p>
             </div>
             <hr class="hr-line">
+            <div class="hr-lines"></div>
             <div class="label">
                 <h1 class="font-bold text-black">Χαμηλές τιμές, χωρίς συνδρομή</h1>
                 <p class="text-sm text-gray-black">Αποκτήστε όλες μας τις υπηρεσίες ΔΩΡΕΑΝ, χωρίς <br class=""> επιπλέον
@@ -666,8 +694,8 @@
     <!-- INSTAGRAM -->
     <section>
         <div class="section-container mb-12">
-            <h1 class="text-24 text-center text-black">Instagram Feed</h1>
-            <div class="flex items-center justify-between mt-6 insta-hover">
+            <h1 class="text-sm md:text-24 text-center text-black font-semibold">Instagram Feed</h1>
+            <div class="hidden sm:flex items-center justify-between mt-6 insta-hover">
                 <a href="/">
                     <div class="absolute hidden bg-black opacity-40 h-full w-full items-center justify-center">
                         <img src="./assets/instagram.png" alt="instagram">
@@ -704,6 +732,11 @@
                     </div>
                     <img src="./assets/insta-06.png" alt="insta-06" class="w-254">
                 </a>
+            </div>
+            <div class="sm:hidden flex items-center justify-center">
+                <div class="w-254 h-254">
+                    <img src="./assets/insta-01.png" alt="insta-01">
+                </div>
             </div>
         </div>
         <div class="section-container mb-8 bg-gray px-10 py-6 flex flex-col md:flex-row items-center justify-between">

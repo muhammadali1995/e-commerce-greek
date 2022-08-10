@@ -39,7 +39,7 @@ body {
     }
 
     .text-26 {
-        @apply text-[#212121] md:text-[25px] text-18;
+        @apply text-[#212121] md:text-[25px] text-18 font-bold;
     }
 
     .text-24 {
@@ -55,7 +55,7 @@ body {
     }
 
     .section-container {
-        @apply max-w-1544 w-full mx-auto md:px-4 2xl:px-0;
+        @apply max-w-1544 w-full mx-auto px-4 2xl:px-0;
     }
 
     .spray-hr {
@@ -131,7 +131,7 @@ body {
     }
 
     .arrow-btn {
-        @apply w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-[0px_3px_6px_#00000029] absolute top-[75px] md:top-[98.5px];
+        @apply w-6 h-6 md:w-10 md:h-10 bg-white z-10 rounded-full flex items-center justify-center shadow-[0px_3px_6px_#00000029] absolute top-[60px] md:top-[75px];
     }
 
     .arrow-img {
@@ -155,7 +155,7 @@ body {
     }
 
     .banner-title {
-        @apply text-[#009289] text-sm md:text-xl font-extrabold text-center md:my-16 mt-[18px] mb-12;
+        @apply text-[#009289] text-sm md:text-xl font-extrabold text-center md:my-16 mb-12;
     }
 
     .insta-hover a {
@@ -178,16 +178,24 @@ body {
         @apply w-px h-122 bg-white-light mx-2 lg:mx-0 hidden lg:block;
     }
 
+    .hr-lines {
+        @apply w-[70%] h-px my-4 bg-light-gray
+    }
+
     .label {
         @apply max-w-[333px] flex flex-col items-center justify-center text-center sm:px-8 md:px-8 lg:px-2 2xl:px-0 md:pt-8;
     }
 
     .covid-count {
-        @apply mx-4 md:mx-0 lg:px-8 mt-[34px] md:mt-[70px] py-2 lg:py-6 border border-light-gray flex flex-wrap items-start justify-evenly lg:justify-between;
+        @apply mx-auto md:mx-0 lg:px-8 mt-[34px] md:mt-[70px] py-2 lg:py-6 border border-light-gray flex flex-wrap items-start justify-evenly lg:justify-between;
     }
 
     .discount-img {
-        @apply flex items-start justify-between flex-col md:py-5 sm:p-3 pt-[10px] pb-2 pl-[10px] md:px-4 text-black bg-center bg-no-repeat h-[168px] sm:min-h-full;
+        @apply flex items-start justify-between flex-col md:py-5 sm:p-3 pt-2.5 pb-2 pl-2.5 md:px-4 text-black bg-center bg-no-repeat sm:min-h-full min-h-[168px];
+    }
+
+    header img {
+        @apply object-cover
     }
 
     .discount {
@@ -203,31 +211,31 @@ body {
     }
 
     .seller {
-        @apply md:border md:border-[#E6E6E6] justify-end md:justify-start py-[13px] flex items-center flex-col md:flex-row;
+        @apply md:border md:border-[#E6E6E6] justify-end md:justify-start pb-3 md:py-[13px] flex items-center flex-col md:flex-row;
     }
 
     .seller div:nth-child(1) {
-        @apply w-[165px] h-[151px] flex items-center justify-center relative;
+        @apply w-[167px] h-[220px] md:h-[151px] flex items-center justify-center relative;
     }
 
     .seller div:nth-child(2) {
-        @apply max-w-[303px] md:border-l md:border-l-[#E6E6E6] md:pl-4 border-t border-t-[#E6E6E6] pt-4 md:border-t-0 2xl:h-[118px] h-[150px];
+        @apply max-w-[303px] md:border-l md:border-l-[#E6E6E6] md:pl-4 border-t border-t-[#E6E6E6] pt-2.5 md:border-t-0 2xl:h-[118px] h-16 md:h-[150px];
     }
 
     .seller h3 {
         @apply font-bold text-xs md:text-base;
     }
 
-    .seller p {
+    .seller-subtitle {
         @apply text-[#5A5A5A] md:text-sm text-xs font-normal;
     }
 
     .seller-content {
-        @apply -tracking-[0.35px] mt-6 text-[10px] md:text-sm;
+        @apply -tracking-[0.35px] mt-2.5 md:mt-6 text-[10px] md:text-sm text-light-gray;
     }
 
     .seller img {
-        @apply  object-cover absolute;
+        @apply  object-cover absolute mb-5;
     }
 
     .dot {
