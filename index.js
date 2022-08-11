@@ -44,16 +44,43 @@ $(document).on('ready', function () {
     // BANNER SLIDER SECTION
     $(".banner-slider").slick({
         infinite: true,
-        slidesToShow: 1,
         slidesToScroll: 1,
+        slidesToShow: 2.3,
         dots: true,
-        centerPadding: '60px',
-        centerMode: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }
+        ]
     });
+
+    $(".feed-slider").slick({
+        infinite: true,
+        slidesToScroll: 1,
+        slidesToShow: 6,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }
+        ]
+    });
+
 
     // BANNER SLIDER SECTION
 
-    const insta = document.querySelectorAll('.insta-hover a');
+    const insta = document.querySelectorAll('.feed-slide');
 
     insta.forEach(e => {
         e.addEventListener('mouseover', () => {

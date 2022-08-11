@@ -924,7 +924,7 @@ video {
   }
 }
 
-.insta-hover a {
+.feed-slide {
   position: relative;
 }
 
@@ -1277,12 +1277,25 @@ header img {
   position: relative;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
 .left-4 {
   left: 1rem;
 }
 
 .right-4 {
   right: 1rem;
+}
+
+.mx-7 {
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
 }
 
 .mx-2 {
@@ -1656,10 +1669,6 @@ header img {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-slide1 {
-  background-image: url('./assets/slider1.png');
-}
-
 .bg-discount1 {
   background-image: url('./assets/discount1.png');
 }
@@ -1868,7 +1877,7 @@ body {
 }
 
 .banner-slider .slick-track {
-  /* display:flex; */
+  display:flex;
   align-items:center;
   justify-content:center;
 }
@@ -1880,6 +1889,10 @@ body {
 .slick-dots li button:before  {
   font-size: 12px !important;
   color: #212121 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #DD1B1E !important;
 }
 
 @media (min-width: 640px) {
@@ -1974,6 +1987,10 @@ body {
 
   .md\:ml-6 {
     margin-left: 1.5rem;
+  }
+
+  .md\:ml-7 {
+    margin-left: 1.75rem;
   }
 
   .md\:mt-116 {
