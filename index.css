@@ -23,7 +23,7 @@ body {
 
 @layer components {
     .max-w-1920 {
-        @apply max-w-[1920px] mx-auto;
+        @apply max-w-[1920px] mx-auto overflow-hidden;
     }
 
     .navbar {
@@ -55,7 +55,7 @@ body {
     }
 
     .section-container {
-        @apply max-w-1544 w-full mx-auto px-4 2xl:px-0;
+        @apply max-w-1544 w-full mx-auto;
     }
 
     .spray-hr {
@@ -86,8 +86,8 @@ body {
         @apply text-[10px] text-gray-light;
     }
 
-    .text-9 {
-        @apply text-[9px] text-gray-light;
+    .text-11 {
+        @apply text-[11px] text-gray-light;
     }
 
     .slide {
@@ -115,7 +115,7 @@ body {
     }
 
     .footer-line {
-        @apply bg-dark h-px my-3;
+        @apply bg-dark h-px mt-2 mb-3 md:my-3;
     }
 
     .footer-item-line {
@@ -179,15 +179,19 @@ body {
     }
 
     .hr-lines {
-        @apply w-[70%] h-px my-4 bg-light-gray
+        @apply w-[70%] h-px mt-4 mb-3 bg-light-gray md:hidden;
     }
 
     .label {
         @apply max-w-[333px] flex flex-col items-center justify-center text-center sm:px-8 md:px-8 lg:px-2 2xl:px-0 md:pt-8;
     }
 
+    .fixed-menu {
+        @apply p-4 bg-white items-center flex fixed w-full bottom-0 justify-between sm:hidden;
+    }
+
     .covid-count {
-        @apply mx-auto md:mx-0 lg:px-8 mt-[34px] md:mt-[70px] py-2 lg:py-6 border border-light-gray flex flex-wrap items-start justify-evenly lg:justify-between;
+        @apply  mx-4 lg:mx-0 lg:px-8 mt-10 md:mt-16 py-2 lg:py-6 border border-light-gray flex flex-wrap items-start justify-evenly lg:justify-between;
     }
 
     .discount-img {

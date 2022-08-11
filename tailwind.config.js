@@ -45,16 +45,19 @@ module.exports = {
       },
       spacing: {
         18: '72px',
-        80: '80px',
-        20: '18px',
+        13: '14px',
+        "19": '18px',
         21: '20px',
         30: '30px',
+        38: '38px',
         21: '21px',
         22: '22px',
         61: '61px',
         3.5: '14px',
         54: '54px',
         68: '68px',
+        70: '70px',
+        75: '75px',
         29: '29px',
         90: '90px',
         116: '116px',
@@ -64,7 +67,8 @@ module.exports = {
         140: '140px',
       },
       lineHeight: {
-        21: '21px'
+        21: '21px',
+        22: '22px',
       },
       backgroundImage: {
         'footer': "url('./assets/bg-footer.jpg')",
@@ -74,6 +78,10 @@ module.exports = {
         'discount3': "url('./assets/discount3.png')",
         'discount4': "url('./assets/discount4.png')",
         'discount5': "url('./assets/discount5.png')",
+      },
+      boxShadow: {
+        'menu-shadow': '0px -10px 20px #0000000D',
+        'fixed-shadow': 'box-shadow: 0px -10px 20px #0000000D',
       },
       minHeight: {
         761: '761px',
