@@ -1099,7 +1099,7 @@ video {
   }
 }
 
-header img {
+.header img {
   -o-object-fit: cover;
      object-fit: cover;
 }
