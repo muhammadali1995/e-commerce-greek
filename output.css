@@ -660,7 +660,6 @@ video {
 }
 
 .card-content {
-  margin-top: 0.5rem;
   font-size: 10px;
   --tw-text-opacity: 1;
   color: rgb(153 153 153 / var(--tw-text-opacity));
@@ -692,6 +691,22 @@ video {
 .card-img-wrapper a img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.card-cont-text {
+  margin-left: 0.5rem;
+  display: flex;
+  height: 71px;
+  flex-direction: column;
+  justify-content: space-between;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+  .card-cont-text {
+    height: 7rem;
+  }
 }
 
 .slide {
@@ -1288,34 +1303,6 @@ header img {
   right: 1rem;
 }
 
-.order-2 {
-  order: 2;
-}
-
-.order-3 {
-  order: 3;
-}
-
-.order-4 {
-  order: 4;
-}
-
-.order-5 {
-  order: 5;
-}
-
-.order-1 {
-  order: 1;
-}
-
-.order-6 {
-  order: 6;
-}
-
-.order-7 {
-  order: 7;
-}
-
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -1381,16 +1368,16 @@ header img {
   margin-top: 2rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
+.mt-70 {
+  margin-top: 70px;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
 }
 
-.mt-11 {
-  margin-top: 2.75rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-7 {
@@ -1415,6 +1402,10 @@ header img {
 
 .mt-21 {
   margin-top: 21px;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
 .mt-12 {
@@ -1663,11 +1654,6 @@ header img {
   border-color: rgb(230 230 230 / var(--tw-border-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#F9F9F9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(249 249 249 / var(--tw-bg-opacity));
@@ -1681,6 +1667,11 @@ header img {
 .bg-gray {
   --tw-bg-opacity: 1;
   background-color: rgb(249 249 249 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-slide1 {
@@ -1715,6 +1706,10 @@ header img {
   background-size: auto;
 }
 
+.p-13 {
+  padding: 14px;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1738,6 +1733,11 @@ header img {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-13 {
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .py-4 {
@@ -1820,6 +1820,10 @@ header img {
   font-weight: 600;
 }
 
+.leading-22 {
+  line-height: 22px;
+}
+
 .text-red {
   --tw-text-opacity: 1;
   color: rgb(221 27 30 / var(--tw-text-opacity));
@@ -1876,13 +1880,9 @@ body {
   color: white !important;
 }
 
-.hover > div:hover {
-  background-color: #f1f1f1;
-}
-
-.hover > div:hover .card-content {
+/* .hover > div:hover .card-content {
   color: red;
-}
+} */
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
@@ -1988,11 +1988,15 @@ body {
   }
 
   .md\:mt-20 {
-    margin-top: 18px;
+    margin-top: 5rem;
   }
 
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mt-75 {
+    margin-top: 75px;
   }
 
   .md\:mb-8 {
@@ -2016,7 +2020,7 @@ body {
   }
 
   .md\:mb-20 {
-    margin-bottom: 18px;
+    margin-bottom: 5rem;
   }
 
   .md\:mr-2 {
@@ -2047,10 +2051,6 @@ body {
     height: 100%;
   }
 
-  .md\:h-auto {
-    height: auto;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -2068,7 +2068,7 @@ body {
   }
 
   .md\:w-80 {
-    width: 80px;
+    width: 20rem;
   }
 
   .md\:w-32 {
@@ -2174,6 +2174,10 @@ body {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+
+  .md\:leading-22 {
+    line-height: 22px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2187,6 +2191,10 @@ body {
 
   .lg\:mr-0 {
     margin-right: 0px;
+  }
+
+  .lg\:mt-19 {
+    margin-top: 18px;
   }
 
   .lg\:block {
