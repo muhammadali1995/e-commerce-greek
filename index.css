@@ -64,7 +64,7 @@ body {
   }
 
   .card-content {
-    @apply text-[#999999] md:text-sm text-[10px] mt-2;
+    @apply text-[#999999] md:text-sm text-[10px];
   }
 
   .card-img-wrapper {
@@ -73,6 +73,10 @@ body {
 
   .card-img-wrapper a img {
     @apply object-cover;
+  }
+
+  .card-cont-text {
+    @apply flex justify-between flex-col ml-2 bg-white h-71 md:h-28;
   }
 
   .slide {
@@ -183,7 +187,7 @@ body {
     @apply flex items-start justify-between flex-col md:py-5 sm:p-3 pt-2.5 pb-2 pl-2.5 md:px-4 text-black bg-center bg-no-repeat sm:min-h-full min-h-[168px];
   }
 
-  header img {
+  .header img {
     @apply object-cover;
   }
 
@@ -240,13 +244,9 @@ body {
   color: white !important;
 }
 
-.hover > div:hover {
-  background-color: #f1f1f1;
-}
-
-.hover > div:hover .card-content {
+/* .hover > div:hover .card-content {
   color: red;
-}
+} */
 
 .swiper-button-prev:after,
 .swiper-button-next:after {

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <link rel="stylesheet" href="../../output.css">
+    <link rel="stylesheet" href="../../index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+    <script src="../../pages/index.js" defer></script>
+    <title>Document</title>
+</head>
+
+<section class="max-w-1920">
+    <!-- NAVBAR -->
+    <section>
+        <div class="navbar">
+            <div class="w-1/3 hidden 2xl:block"></div>
+            <div class="2xl:w-1/3 flex items-center justify-center">
+                <a href="#" class="mr-8 sm:mr-6">Εταιρία</a>
+                <a href="#" class="mr-8 sm:mr-6">Νέα</a>
+                <a href="#" class="mr-8 sm:mr-6">Επικοινωνία</a>
+                <a href="#">Κατηγορίες</a>
+            </div>
+            <div class="items-center 2xl:w-1/3 text-center justify-end hidden md:flex">
+                <p>Χρειάζεστε βοήθεια? Καλέστε μας: 210 269 3600</p>
+                <a href="/"> <img src="../.././../assets/phone.svg" alt="phone" class="ml-2"></a>
+            </div>
+            <img src="../.././../assets/phone.svg" alt="phone" class="block md:hidden ml-2">
+        </div>
+        <div class="flex items-center justify-between px-4 pt-3 pb-2">
+            <div class="flex items-center">
+                <a href="/"> <img src="../.././../assets/main-logo.png" alt="main-logo" class="w-36 sm:w-182"></a>
+                <div class="items-center lg:ml-61 mt-3.5 ml-4 hidden md:flex">
+                    <a href="/"><img src="../.././../assets/menu.svg" alt="menu" class=""></a>
+                    <p class="ml-4">Προϊόντα</p>
+                </div>
+            </div>
+            <div class="items-center hidden md:flex">
+                <input type="text" placeholder="ψάχνω για …"
+                    class="outline-none pb-1 2xl:w-695 border-b text-gray-500 border-b-gray-500 -mt-1">
+                <a href="/"><img src="../.././../assets/search.png" alt="search" class="ml-3"></a>
+                <a href="/"><img src="../.././../assets/heart.png" alt="heart" class="ml-3"></a>
+                <div class="relative">
+                    <a href="/">
+                        <img src="../.././../assets/cart.png" alt="cart" class="ml-3">
+                        <p class="dot">2</p>
+                    </a>
+                </div>
+                <a href="/"><img src="../.././../assets/user.png" alt="user" class="ml-3"></a>
+                <p class="text-red ml-2">Σύνδεση</p>
+            </div>
+            <img src="../.././../assets/menu.svg" alt="menu" class="block md:hidden w-6">
+        </div>
+    </section>
+    <!-- NAVBAR -->
+
+    <!-- HEADER -->
+    <div class="section-container flex items-center justify-center">
+        <div class="w-1/2 ">
+            <a href="/"><img src="../.././../assets/topbanner01.jpeg" alt="topbanner" ></a>
+        </div>
+        <div class="w-1/2 ml-3">
+            <a href="/"><img src="../.././../assets/topbanner02.jpeg" alt="topbanner" class="border border-black"></a>
+        </div>
+    </div>
+    <!-- HEADER -->
+
+    <!-- CARDS -->
+    <div>
+        <div>
+            <h3><span>Αρχική</span> / Προϊόντα</h3>
+            <div>
+                <h1>Φιλτράρισμα</h1>
+                
+            </div>
+        </div>
+        <div class="section-container px-3">
+            <div class="flex mt-4 md:mt-14 items-center justify-between">
+                <h3 class="text-26">Νέα Προϊόντα</h3>
+                <img class="block md:hidden" src="./assets/arrow.png" alt="arrow">
+            </div>
+            <div
+                class="grid hover xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 mt-2 gap-x-4 md:gap-y-8 gap-y-3">
+                <div>
+                    <div class="card-img-wrapper">
+                        <a href="/"><img src="../..//assets/spray6.png" alt="spray"></a>
+                    </div>
+                    <div class="card-hr"></div>
+                    <div class="card-cont-text">
+                        <div class="">
+                            <h2 class="card-title">Δαφνέλαιο Kanavos</h2>
+                            <p class="card-subtitle">Δαφνέλαιο Kanavos 250ml</p>
+                        </div>
+                        <p class="card-content md:mt-5">Συνδεθείτε για να δείτε την τιμή</p>
+                    </div>
+                </div>
+                <div class="md:order-none">
+                    <div class="card-img-wrapper">
+                        <a href="/"><img src="../..//assets/spray2.png" alt="spray"></a>
+                    </div>
+                    <div class="card-hr"></div>
+                    <div class="card-cont-text">
+                        <div>
+                            <h2 class="card-title">Tonic mountain tea</h2>
+                            <p class="card-subtitle hidden md:block">Αφρόλουτρο με Αιθέρια Έλαια Ecopack 500ml</p>
+                            <p class="card-subtitle md:hidden">Αφρόλουτρο με Αιθέρια</p>
+                        </div>
+                        <p class="card-content">Συνδεθείτε για να δείτε την τιμή</p>
+                    </div>
+                </div>
+                <div class="md:order-none">
+                    <div class="card-img-wrapper">
+                        <a href="/" class="h-220 md:h-full"><img src="../..//assets/spray3.png" alt="spray"
+                                class="h-220 md:h-full"></a>
+                    </div>
+                    <div class="card-hr"></div>
+                    <div class="card-cont-text ">
+                        <div>
+                            <h2 class="card-title md:ml-2.5">Erythro Forte</h2>
+                            <p class="card-subtitle md:ml-2.5">Dermotherapy Balsam Gold</p>
+                        </div>
+                        <p class="card-content md:ml-2.5">Συνδεθείτε για να δείτε την τιμή</p>
+                    </div>
+                </div>
+                <div class="md:order-none">
+                    <div class="card-img-wrapper">
+                        <a href="/" class="h-220 md:h-full"><img src="../..//assets/spray4.png" alt="spray"
+                                class="h-220 md:h-full"></a>
+                    </div>
+                    <div class="card-hr"></div>
+                    <div class="card-cont-text ">
+                        <div>
+                            <h2 class="card-title md:ml-6">Galesyn® Emulsion</h2>
+                            <p class="card-subtitle md:ml-6 hidden md:block">Ενυδατικό γαλάκτωμα με αιθέρια έλαια και για
+                                προστασία από τα έντομα</p>
+                            <p class="card-subtitle md:ml-6 md:hidden">Ενυδατικό γαλάκτωμα με </p>
+                        </div>
+                        <p class="card-content md:ml-6">Συνδεθείτε για να δείτε την τιμή</p>
+                    </div>
+                </div>
+                <div class="md:order-none">
+                    <div class="card-img-wrapper">
+                        <a href="/" class="h-220 md:h-full"><img src="../..//assets/spray5.png" alt="spray"
+                                class="h-220 md:h-full"></a>
+                    </div>
+                    <div class="card-hr"></div>
+                    <div class="card-cont-text ">
+                        <div>
+                            <h2 class="card-title md:ml-2.5">Galesyn® After Nip</h2>
+                            <p class="card-subtitle md:ml-2.5 hidden md:block">Απαλό, καταπραϋντικό, δροσιστικό gel
+                                Μοναδική σύνθεση</p>
+                            <p class="card-subtitle md:ml-2.5 md:hidden">Απαλό, καταπραϋντικό,</p>
+                        </div>
+                        <p class="card-content md:ml-2.5">Συνδεθείτε για να δείτε την τιμή</p>
+                    </div>
+                </div>
+                <div class="md:order-none">
+                    <div class="card-img-wrapper">
+                        <a href="/"><img src="../..//assets/spray6.png" alt="spray"></a>
+                    </div>
+                    <div class="card-hr"></div>
+                    <div class="card-cont-text ">
+                        <div>
+                            <h2 class="card-title">Δαφνέλαιο Kanavos</h2>
+                            <p class="card-subtitle">Δαφνέλαιο Kanavos 250ml</p>
+                        </div>
+                        <p class="card-content md:mt-5">Συνδεθείτε για να δείτε την τιμή</p>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="card-img-wrapper">
+                        <a href="/" class="h-220 md:h-full"><img src="../..//assets/spray7.png" alt="spray"
+                                class="h-220 md:h-full"></a>
+                    </div>
+                    <div class="card-hr"></div>
+                    <div class="card-cont-text ">
+                        <div>
+                            <h2 class="card-title">Galesyn® Anti Hair Loss Shampoo</h2>
+                            <p class="card-subtitle">Σαμπουάν που ενδυναμώνει τις τρίχες συμβάλλοντας στη μείωση της </p>
+                        </div>
+                        <p class="card-content">Συνδεθείτε για να δείτε την τιμή</p>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="card-img-wrapper">
+                        <a href="/"><img src="../..//assets/spray8.png" alt="spray"></a>
+                    </div>
+                    <div class="card-hr"></div>
+                    <div class="card-cont-text ">
+                        <div>
+                            <h2 class="card-title">Soft Shampoo & Bath</h2>
+                            <p class="card-subtitle">Υποαλλεργικό, μειώνει τον κίνδυνο εμφάνισης αλλεργιών</p>
+                        </div>
+                        <p class="card-content">Συνδεθείτε για να δείτε την τιμή</p>
+                    </div>
+                </div>
+                <div class="md:order-none">
+                    <div class="card-img-wrapper">
+                        <a href="/"><img src="../..//assets/spray9.png" alt="spray"></a>
+                    </div>
+                    <div class="card-hr"></div>
+                    <div class="card-cont-text ">
+                        <div>
+                            <h2 class="card-title">Aqua Beelicious</h2>
+                            <p class="card-subtitle hidden md:block">Oil-Free Κρέμα- Gel Ενυδάτωσης ελαφριάς υφής</p>
+                            <p class="card-subtitle md:hidden">Oil-Free Κρέμα-</p>
+                        </div>
+                        <p class="card-content">Συνδεθείτε για να δείτε την τιμή</p>
+                    </div>
+                </div>
+                <div class="md:order-none">
+                    <div class="card-img-wrapper">
+                        <a href="/"><img src="../..//assets/spray10.png" alt="spray"></a>
+                    </div>
+                    <div class="card-hr"></div>
+                    <div class="card-cont-text ">
+                        <div>
+                            <h2 class="card-title">BY 90 – Βρεφοζυγός Beurer</h2>
+                            <p class="card-subtitle hidden md:block">Βρεφοζυγός Ψηφιακός Beurer -BY 80- Ικανότητα Ζύγισης:
+                                20kg/5gr</p>
+                            <p class="card-subtitle md:hidden">Βρεφοζυγός Ψηφιακός</p>
+                        </div>
+                        <p class="card-content">Συνδεθείτε για να δείτε την τιμή</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full flex items-center justify-center mt-8 md:hidden">
+                <button class="p-13 text-center border-light-gray border text-sm text-black">δείτε περισσότερα</button>
+            </div>
+        </div>
+    </div>
+    <!-- CARDS -->
+
+    <!-- SLIDER -->
+    <div class="section-container">
+        <a href="/"><img src='../assets/banner3.png' alt="banner3" class="hidden mt-14 md:block w-full" /></a>
+        <a href="/"><img src='../assets/banner3-res.png' alt="banner3" class="block mt-8 md:hidden w-full" /></a>
+    </div>
+    <!-- SLIDER -->
+
+    <!-- COVID -->
+    <div class="section-container mt-90 mb-11 md:mb-20">
+        <div class="covid-count pt-6 pb-8">
+            <div class="label">
+                <h1 class="font-bold text-black">Πανελλαδική αποστολή</h1>
+                <p class="text-sm text-gray-black">Επωφεληθείτε από τις χαμηλές τιμές.</p>
+            </div>
+            <hr class="hr-line">
+            <div class="hr-lines"></div>
+            <div class="label">
+                <h1 class="font-bold text-black">Μόνο για Επαγγελματίες</h1>
+                <p class="text-sm text-gray-black">Η πρόσβαση στις τιμές των προϊόντων,<br class=""> απαιτεί έγκριση της
+                    εγγραφής σας.
+                </p>
+            </div>
+            <hr class="hr-line">
+            <div class="hr-lines"></div>
+            <div class="label">
+                <h1 class="font-bold text-black">3000+ προιόντα</h1>
+                <p class="text-sm text-gray-black">Αποκτήστε πρόσβαση σε πάνω από 3000 <br class=""> παραφαρμακευτικά
+                    προϊόντα.</p>
+            </div>
+            <hr class="hr-line">
+            <div class="hr-lines"></div>
+            <div class="label">
+                <h1 class="font-bold text-black">Χαμηλές τιμές, χωρίς συνδρομή</h1>
+                <p class="text-sm text-gray-black">Αποκτήστε όλες μας τις υπηρεσίες ΔΩΡΕΑΝ, χωρίς <br class=""> επιπλέον
+                    χρεώσεις και
+                    συνδρομές.</p>
+            </div>
+        </div>
+    </div>
+    <!-- COVID -->
+
+    <!-- INSTAGRAM -->
+    <section>
+        <div
+            class="section-container mb-8 bg-gray px-4 md:px-10 py-5 flex flex-col md:flex-row items-center justify-between">
+            <div class="mr-2 text-black-light">
+                <p class="font-semibold md:text-18">
+                    Θέλετε να εγγραφείτε στο newsletter μας; <br class="hidden lg:block"> Συμπληρώστε το email σας για
+                    να σας ενημερώνουμε για τα νέα μας.
+                </p>
+                <form class="mt-2.5 md:mt-0">
+                    <input type="radio" class="input" id="input">
+                    <label for="input" class="text-sm mt-2">
+                        Συμφωνώ με την Πολιτική απορρήτου <span class="text-red">*</span>
+                    </label>
+                </form>
+            </div>
+            <form class="flex flex-col md:flex-row items-center w-full md:w-auto mt-8 md:mt-0">
+                <input type="text" placeholder="Το email σας"
+                    class="py-13 pl-4 md:pl-7 bor w-full md:w-80 xl:w-407 md:mr-2 border border-black">
+                <button type="submit"
+                    class="text-14 text-left md:text-center pl-4 md:pl-0 mt-2 md:mt-0 text-white bg-black w-full md:w-32 py-4">Αποστολή</button>
+            </form>
+        </div>
+    </section>
+    <!-- INSTAGRAM -->
+
+    <!-- FOOTER -->
+    <footer class="footer-bg sm:mt-7 md:pt-61 border-y border-line-color pt-7 mb-14 sm:mb-0">
+        <div class="section-container px-4 xl:pl-54 md:pr-9 md:pt-3 pb-2 md:pb-16">
+            <a href="/"><img src="../.././../assets/main-logo.png" alt="main-logo" class="w-36 md:w-250"></a>
+            <div class="sm:flex sm:flex-wrap lg:flex-row items-start justify-between text-xs leading-22 md:leading-22
+                md:text-sm text-gray-black mt-7 sm:mt-18 md:ml-2">
+                <div class="mb-7 md:mb-6 lg:mb-0 mr-5 lg:mr-0">
+                    <p class="text-sm">
+                        Εταιρεία δεύτερης γενιάς που <br class="hidden sm:block"> προμηθεύει φαρμακαποθήκες & <br
+                            class="hidden sm:block"> φαρμακεία με
+                        παραφαρμακευτικά,
+                        <br class="hidden sm:block"> ιατροτεχνολογικά & χημικές ουσίες πάνω <br class="hidden sm:block">
+                        από 30 χρόνια…
+                    </p class="hidden sm:block">
+                    <div class="items-center hidden sm:flex max-w-134 justify-between mt-32">
+                        <a href="/"><img src="../.././../assets/insta-icon.svg" alt="insta-icon"></a>
+                        <a href="/"><img src="../.././../assets/fb-icon.svg" alt="fb-icon"></a>
+                        <a href="/"><img src="../.././../assets/youtube-icon.svg" alt="youtube-icon"></a>
+                    </div>
+                </div>
+                <ul class="mr-5 lg:mr-0 sm:hidden">
+                    <div class="footer-line"></div>
+                    <li class="footer-li-flex">
+                        <a href="/">Μενού</a>
+                        <div class="footer-item-line"></div>
+                    </li>
+                    <li><a href="/">O Λογαριασμός μου</a></li>
+                    <li><a href="/">Εταιρεία</a></li>
+                    <li><a href="/">Nέα</a></li>
+                    <li><a href="/">Επικοινωνία</a></li>
+                </ul>
+                <div class="footer-line"></div>
+                <ul class="mr-5 lg:mr-0">
+                    <li class="footer-li-flex">
+                        <a href="/">Κατηγορίες</a>
+                        <div class="footer-item-line"></div>
+                    </li>
+                    <li><a href="/">Α’ Ύλες</a></li>
+                    <li><a href="/">Pack</a></li>
+                    <li><a href="/">Εργαστηριακός Εξοπλισμός</a></li>
+                    <li><a href="/">Ατομική Φροντίδα - Ευεξία</a></li>
+                    <li><a href="/">Αναλώσιμα & Εξοπλισμός Ιατρείου</a></li>
+                    <li><a href="/">Ορθοπεδικά </a></li>
+                    <li><a href="/">Φροντίδα Βρεφών & Παιδιών</a></li>
+                    <li><a href="/">Υγεία - Ομορφιά</a></li>
+                    <li><a href="/">Ιατρικές Συσκευές</a></li>
+                    <li><a href="/">Διάφορα</a></li>
+                    <li><a href="/">Είδη Covid-19</a></li>
+                </ul>
+                <ul class="mr-5 lg:mr-0 hidden sm:block">
+                    <li class="footer-li-flex">
+                        <a href="/">Μενού</a>
+                        <div class="footer-item-line"></div>
+                    </li>
+                    <li><a href="/">O Λογαριασμός μου</a></li>
+                    <li><a href="/">Εταιρεία</a></li>
+                    <li><a href="/">Nέα</a></li>
+                    <li><a href="/">Επικοινωνία</a></li>
+                </ul>
+                <div class="footer-line"></div>
+                <ul class="mr-5 lg:mr-0">
+                    <li class="footer-li-flex">
+                        <a href="/">Πληροφορίες</a>
+                        <div class="footer-item-line"></div>
+                    </li>
+                    <li><a href="/">Διαθεσιμότητα ειδών</a></li>
+                    <li><a href="/">Τρόποι Πληρωμής</a></li>
+                    <li><a href="/">Τρόποι Αποστολής</a></li>
+                    <li><a href="/">Ατομική Φροντίδα - Ευεξία</a></li>
+                </ul>
+                <div class="footer-line"></div>
+                <div class="">
+                    <ul>
+                        <li class="font-bold"><a href="/">Syndesmos S.A.</a></li>
+                        <li><a href="/">Ψαρών 17 & Αιγίνης, 131 22 Ίλιον, Ελλάδα</a></li>
+                        <li class="font-bold"><a href="/"><span class="text-red">T</span> 210 269 3600 </a></li>
+                    </ul>
+                    <br>
+                    <ul>
+                        <li class="font-bold"><a href="/">GMP Facility</a></li>
+                        <li><a href="/">Νερατζούλας 10,</a></li>
+                        <li><a href="/">136 72 Αχαρναί, Ελλάδα</a></li>
+                    </ul>
+                    <br>
+                    <ul>
+                        <li class="font-bold"><a href="/"><span class="text-red">T</span> 210 269 3600</a></li>
+                        <li class="font-bold"><a href="/"><span class="text-red">E</span> info@syndesmossa.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-line"></div>
+                <div class="flex sm:hidden items-center max-w-134 justify-between mt-1 mb-4">
+                    <a href="/"><img src="../.././../assets/insta-icon.svg" alt="insta-icon"></a>
+                    <a href="/"><img src="../.././../assets/fb-icon.svg" alt="fb-icon"></a>
+                    <a href="/"><img src="../.././../assets/youtube-icon.svg" alt="youtube-icon"></a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white h-1 sm:mt-12 lg:mt-19"></div>
+        <div class="section-container px-4 xl:px-54">
+            <div class="flex flex-col lg:flex-row items-start md:items-center justify-between pt-5 pb-6 md:py-6">
+                <div class="text-10 hidden sm:flex items-center mb-4 lg:mb-0">
+                    <p class="">
+                        © 2022 <span class="font-bold"> Syndesmos S.A. </span> All rights reserved
+                    </p>
+                    <a href="/"><span class="mx-2">|</span> Privacy Policy</a>
+                    <a href="/"><span class="mx-2">|</span> Cookie Policy</a>
+                    <a href="/"><span class="mx-2">|</span> Terms & Conditions</a>
+                </div>
+                <div class="flex items-center">
+                    <p class="text-11 text-gray-light mr-2">
+                        Designed & Developed by
+                    </p>
+                    <img src="../.././../assets/footer-img-text.png" alt="footer-img-text" class="w-170">
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="fixed-menu">
+        <img src="../.././../assets/menu.svg" alt="menu" class="">
+        <img src="../.././../assets/search.png" alt="search" class="">
+        <img src="../.././../assets/heart.png" alt="heart" class="">
+        <div class="relative">
+            <img src="../.././../assets/cart.png" alt="cart">
+            <p class="dot">2</p>
+        </div>
+        <img src="../.././../assets/user.png" alt="user" class="">
+    </div>
+    <!-- FOOTER -->
+</section>
+</body>
+
+</html>
