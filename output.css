@@ -1867,13 +1867,13 @@ body {
   content:"";
 }
 
-.slickWrapper2 .slick-track {
-  display:flex;
+.banner-slider .slick-track {
+  /* display:flex; */
   align-items:center;
   justify-content:center;
 }
 
-.slickWrapper2 .slide {
+.banner-slider .slide {
   width:inherit;
 }
 

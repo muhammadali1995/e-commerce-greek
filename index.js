@@ -1,18 +1,5 @@
-const insta = document.querySelectorAll('.insta-hover a');
-
-insta.forEach(e => {
-    e.addEventListener('mouseover', () => {
-        e.children[0].classList.replace('hidden', 'flex')
-        console.log(e)
-    })
-
-    e.addEventListener('mouseleave', () => {
-        e.children[0].classList.replace('flex', 'hidden')
-    })
-})
-
 $(document).on('ready', function () {
-    $(".slickWrapper").slick({
+    $(".product-slider").slick({
         infinite: false,
         slidesToShow: 8,
         slidesToScroll: 1,
@@ -52,14 +39,30 @@ $(document).on('ready', function () {
         console.log(this, e)
         $('.slickWrapper').slick('slickNext');
     })
-});
 
-$(document).on('ready', function () {
-    $(".slickWrapper2").slick({
-        infinite: false,
+
+    // BANNER SLIDER SECTION
+    $(".banner-slider").slick({
+        infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
-        centerMode: true
+        centerPadding: '60px',
+        centerMode: true,
     });
+
+    // BANNER SLIDER SECTION
+
+    const insta = document.querySelectorAll('.insta-hover a');
+
+    insta.forEach(e => {
+        e.addEventListener('mouseover', () => {
+            e.children[0].classList.replace('hidden', 'flex')
+            console.log(e)
+        })
+
+        e.addEventListener('mouseleave', () => {
+            e.children[0].classList.replace('flex', 'hidden')
+        })
+    })
 });
