@@ -260,3 +260,11 @@ body {
 .slick-dots li.slick-active button:before {
   color: #DD1B1E !important;
 }
+
+.mr-7 {
+  margin-right: 28px  !important;
+}
+
+.product-slider .slider {
+  overflow: hidden;
+}
