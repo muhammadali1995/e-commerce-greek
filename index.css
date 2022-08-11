@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Regular";
-  src: url("./assets/manrope/manrope-regular.otf");
-}
-
-@font-face {
-  font-family: "Semibold";
-  src: url("./assets/manrope/manrope-semibold.otf");
-}
-
-@font-face {
-  font-family: "Bold";
-  src: url("./assets/manrope/manrope-bold.otf");
-}
-
 body {
   font-family: "Manrope", sans-serif;
 }
@@ -24,6 +9,10 @@ body {
 @layer components {
   .max-w-1920 {
     @apply max-w-[1920px] mx-auto overflow-hidden;
+  }
+
+  .section-container {
+    @apply max-w-1544 w-full mx-auto;
   }
 
   .navbar {
@@ -62,31 +51,27 @@ body {
     @apply text-black font-bold;
   }
 
-  .section-container {
-    @apply max-w-1544 w-full mx-auto;
-  }
-
-  .spray-hr {
+  .card-hr {
     @apply h-1 bg-[#E6E6E6];
   }
 
-  .spray-title {
+  .card-title {
     @apply mt-3 font-bold text-xs md:text-base text-black;
   }
 
-  .spray-subtitle {
+  .card-subtitle {
     @apply mt-1 text-[#5A5A5A] md:text-sm text-xs;
   }
 
-  .spray-content {
+  .card-content {
     @apply text-[#999999] md:text-sm text-[10px] mt-2;
   }
 
-  .spray-img-wrapper {
+  .card-img-wrapper {
     @apply md:h-[375px] h-[220px] max-w-[167px] md:max-w-[286px] relative flex items-center justify-center;
   }
 
-  .spray-img-wrapper a img {
+  .card-img-wrapper a img {
     @apply object-cover;
   }
 
@@ -259,10 +244,11 @@ body {
   background-color: #f1f1f1;
 }
 
-.hover > div:hover .spray-content {
+.hover > div:hover .card-content {
   color: red;
 }
 
-.swiper-button-prev:after, .swiper-button-next:after {
+.swiper-button-prev:after,
+.swiper-button-next:after {
   content: "";
 }

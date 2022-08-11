@@ -558,6 +558,13 @@ video {
   overflow: hidden;
 }
 
+.section-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1544px;
+}
+
 .navbar {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -615,20 +622,13 @@ video {
   }
 }
 
-.section-container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  max-width: 1544px;
-}
-
-.spray-hr {
+.card-hr {
   height: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(230 230 230 / var(--tw-bg-opacity));
 }
 
-.spray-title {
+.card-title {
   margin-top: 0.75rem;
   font-size: 0.75rem;
   line-height: 1rem;
@@ -638,13 +638,13 @@ video {
 }
 
 @media (min-width: 768px) {
-  .spray-title {
+  .card-title {
     font-size: 1rem;
     line-height: 1.5rem;
   }
 }
 
-.spray-subtitle {
+.card-subtitle {
   margin-top: 0.25rem;
   font-size: 0.75rem;
   line-height: 1rem;
@@ -653,13 +653,13 @@ video {
 }
 
 @media (min-width: 768px) {
-  .spray-subtitle {
+  .card-subtitle {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
 }
 
-.spray-content {
+.card-content {
   margin-top: 0.5rem;
   font-size: 10px;
   --tw-text-opacity: 1;
@@ -667,13 +667,13 @@ video {
 }
 
 @media (min-width: 768px) {
-  .spray-content {
+  .card-content {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
 }
 
-.spray-img-wrapper {
+.card-img-wrapper {
   position: relative;
   display: flex;
   height: 220px;
@@ -683,13 +683,13 @@ video {
 }
 
 @media (min-width: 768px) {
-  .spray-img-wrapper {
+  .card-img-wrapper {
     height: 375px;
     max-width: 286px;
   }
 }
 
-.spray-img-wrapper a img {
+.card-img-wrapper a img {
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1864,24 +1864,6 @@ header img {
   outline-offset: 2px;
 }
 
-@font-face {
-  font-family: "Regular";
-
-  src: url("./assets/manrope/manrope-regular.otf");
-}
-
-@font-face {
-  font-family: "Semibold";
-
-  src: url("./assets/manrope/manrope-semibold.otf");
-}
-
-@font-face {
-  font-family: "Bold";
-
-  src: url("./assets/manrope/manrope-bold.otf");
-}
-
 body {
   font-family: "Manrope", sans-serif;
 }
@@ -1898,11 +1880,12 @@ body {
   background-color: #f1f1f1;
 }
 
-.hover > div:hover .spray-content {
+.hover > div:hover .card-content {
   color: red;
 }
 
-.swiper-button-prev:after, .swiper-button-next:after {
+.swiper-button-prev:after,
+.swiper-button-next:after {
   content: "";
 }
 
