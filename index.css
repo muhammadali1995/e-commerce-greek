@@ -19,6 +19,14 @@ body {
     @apply flex text-12 items-center justify-end sm:justify-center md:justify-between bg-dark-green sm:py-2 pt-[6px] pb-[3px] px-4;
   }
 
+  .text-6 {
+    @apply text-[6px] leading-[5px] text-dark
+  }
+
+  .text-7 {
+    @apply text-[7px] leading-[5px] text-dark
+  }
+
   .text-10 {
     @apply text-[10px] text-gray-light;
   }
@@ -80,7 +88,7 @@ body {
   }
 
   .card-img-wrapper a img {
-    @apply object-cover;
+    @apply object-cover h-auto;
   }
 
   .card-cont-text {
