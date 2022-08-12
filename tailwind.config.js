@@ -16,6 +16,9 @@ module.exports = {
         "hr-color": "#bdbdbd",
         "white-light": "#F1F1F1",
       },
+      borderWidth: {
+        3: '3px'
+      },
       width: {
         800: '800px',
         170: '170px',
@@ -28,6 +31,7 @@ module.exports = {
         56: '56%',
         67: '67%',
         78: '78%',
+        427: '427px'
       },
       height: {
         122: '122px',
@@ -36,13 +40,13 @@ module.exports = {
         220: '220px',
         200: '200px',
         190: '190px',
-        125:'125px',
+        125: '125px',
       },
       maxWidth: {
         134: '134px',
         1544: '1544px',
         850: '850px',
-        617:'617px',
+        617: '617px',
       },
       spacing: {
         18: '72px',
@@ -83,6 +87,7 @@ module.exports = {
       boxShadow: {
         'menu-shadow': '0px -10px 20px #0000000D',
         'fixed-shadow': 'box-shadow: 0px -10px 20px #0000000D',
+        'menu': ' 5px 0px 20px #15151533'
       },
       minHeight: {
         761: '761px',
