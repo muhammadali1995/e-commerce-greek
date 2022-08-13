@@ -926,34 +926,9 @@ video {
 
 .slider {
   display: flex;
-  width: 9rem;
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
-
-@media (min-width: 768px) {
-  .slider {
-    width: 10rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .slider {
-    width: 11rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .slider {
-    width: 12rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  .slider {
-    width: 12.5rem;
-  }
 }
 
 .slider p {

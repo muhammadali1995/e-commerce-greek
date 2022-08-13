@@ -136,7 +136,7 @@ body {
   }
 
   .slider {
-    @apply flex items-center flex-col text-center w-36 md:w-40 lg:w-44 xl:w-48 2xl:w-[12.5rem];
+    @apply flex items-center flex-col text-center;
   }
 
   .slider p {
