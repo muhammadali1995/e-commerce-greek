@@ -1352,6 +1352,11 @@ video {
   margin-right: 0.5rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mr-8 {
   margin-right: 2rem;
 }
@@ -1500,6 +1505,18 @@ video {
   margin-top: 8rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mr-2\.5 {
+  margin-right: 0.625rem;
+}
+
 .block {
   display: block;
 }
@@ -1538,6 +1555,14 @@ video {
 
 .h-1 {
   height: 0.25rem;
+}
+
+.h-px {
+  height: 1px;
+}
+
+.h-3 {
+  height: 0.75rem;
 }
 
 .max-h-417 {
@@ -1590,6 +1615,10 @@ video {
 
 .w-170 {
   width: 170px;
+}
+
+.w-3 {
+  width: 0.75rem;
 }
 
 .max-w-full {
@@ -1709,6 +1738,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 241 241 / var(--tw-bg-opacity));
+}
+
 .bg-discount1 {
   background-image: url('./assets/discount1.png');
 }
@@ -1774,6 +1808,21 @@ video {
 .py-13 {
   padding-top: 14px;
   padding-bottom: 14px;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pt-3 {
@@ -1843,12 +1892,38 @@ video {
   line-height: 1rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-13 {
+  font-size: 0.8125rem;
+}
+
+.text-\[0\.5rem\] {
+  font-size: 0.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .leading-22 {
@@ -1880,6 +1955,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(33 33 33 / var(--tw-text-opacity));
+}
+
 .opacity-40 {
   opacity: 0.4;
 }
@@ -1887,6 +1967,18 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -1927,6 +2019,14 @@ body {
 
 .product-slider .slider {
   overflow: hidden;
+}
+
+.placeholder\:text-13::-moz-placeholder {
+  font-size: 0.8125rem;
+}
+
+.placeholder\:text-13::placeholder {
+  font-size: 0.8125rem;
 }
 
 @media (min-width: 640px) {
@@ -2185,6 +2285,10 @@ body {
     padding-bottom: 4rem;
   }
 
+  .md\:pl-0 {
+    padding-left: 0px;
+  }
+
   .md\:text-center {
     text-align: center;
   }
@@ -2207,6 +2311,10 @@ body {
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .md\:text-13 {
+    font-size: 0.8125rem;
   }
 
   .md\:leading-22 {
