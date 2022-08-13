@@ -1,33 +1,56 @@
+const breakpoints = {
+    xs: 280,
+    sm: 640,
+    md: 768,
+    lg: 1024,
+    xl: 1280,
+    xxl: 1536,
+}
+
+
 $(document).on('ready', function () {
     $(".product-slider").slick({
         infinite: false,
         slidesToShow: 8,
         slidesToScroll: 1,
         arrow: true,
-        responsive: [{
-            breakpoint: 1324,
-            settings: {
-                slidesToShow: 4,
+        responsive: [
+            {
+                breakpoint: breakpoints.xxl,
+                settings: {
+                    slidesToShow: 8,
+                }
+            },
+            {
+                breakpoint: breakpoints.xl,
+                settings: {
+                    slidesToShow: 7,
+                }
+            },
+            {
+                breakpoint: breakpoints.lg,
+                settings: {
+                    slidesToShow: 6,
+                }
+            },
+            {
+                breakpoint: breakpoints.md,
+                settings: {
+                    slidesToShow: 5,
+                }
+            },
+            {
+                breakpoint: breakpoints.sm,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: breakpoints.xs,
+                settings: {
+                    slidesToShow: 2,
+                }
             }
-        },
-        {
-            breakpoint: 1920,
-            settings: {
-                slidesToShow: 8,
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 3,
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 3,
-            }
-        }
         ]
     });
     $('.slide-prev').click(function (e) {
@@ -64,6 +87,7 @@ $(document).on('ready', function () {
         infinite: true,
         slidesToScroll: 1,
         slidesToShow: 6,
+        dots: false,
         responsive: [
             {
                 breakpoint: 768,
@@ -71,7 +95,6 @@ $(document).on('ready', function () {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: true
                 }
             }
         ]
