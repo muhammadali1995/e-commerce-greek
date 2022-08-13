@@ -1371,10 +1371,6 @@ header img {
   margin-top: 1.5rem;
 }
 
-.mr-7 {
-  margin-right: 1.75rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -1453,6 +1449,10 @@ header img {
 
 .mt-32 {
   margin-top: 8rem;
+}
+
+.mt-11 {
+  margin-top: 2.75rem;
 }
 
 .block {
@@ -1691,6 +1691,10 @@ header img {
 
 .bg-discount5 {
   background-image: url('./assets/discount5.png');
+}
+
+.bg-slide1 {
+  background-image: url('./assets/slider1.png');
 }
 
 .bg-cover {
@@ -2009,6 +2013,10 @@ body {
     margin-top: 116px;
   }
 
+  .md\:mr-7 {
+    margin-right: 1.75rem;
+  }
+
   .md\:mt-20 {
     margin-top: 5rem;
   }
@@ -2051,10 +2059,6 @@ body {
 
   .md\:mb-6 {
     margin-bottom: 1.5rem;
-  }
-
-  .md\:mr-7 {
-    margin-right: 1.75rem;
   }
 
   .md\:block {
