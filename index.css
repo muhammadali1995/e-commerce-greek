@@ -6,13 +6,13 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
-@layer components {
+@layer base {
   .max-w-1920 {
-    @apply max-w-[1920px] mx-auto overflow-hidden;
+    @apply max-w-[120rem] mx-auto overflow-hidden;
   }
 
   .section-container {
-    @apply max-w-1544 w-full mx-auto;
+    @apply max-w-[96.5rem] w-full mx-auto;
   }
 
   .navbar {
@@ -40,7 +40,7 @@ body {
   }
 
   .subtitle-lg {
-    @apply md:text-lg font-bold leading-5 md:leading-6;
+    @apply md: text-lg font-bold leading-5 md:leading-6;
   }
 
   .subtitle {
@@ -48,7 +48,7 @@ body {
   }
 
   .title-sm {
-    @apply md:text-2xl font-semibold text-gray-900 leading-9  text-lg;
+    @apply md:text-2xl font-semibold text-gray-900 leading-9 text-lg;
   }
 
   .title-md {
@@ -56,11 +56,11 @@ body {
   }
 
   .title-lg {
-    @apply md:text-[28px] font-medium text-white text-lg;
+    @apply md: text-[28px] font-medium text-white text-lg;
   }
 
   .title {
-    @apply md:text-3xl font-semibold text-gray-900 leading-9  text-lg;
+    @apply md:text-3xl font-semibold text-gray-900 leading-9 text-lg;
   }
 
   .card-hr {
