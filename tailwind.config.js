@@ -1,5 +1,8 @@
 module.exports = {
-  content: ["./*.html"],
+  content: [
+    "./*.html",
+    "./**/**/*.html"
+  ],
   theme: {
     extend: {
       colors: {
@@ -54,9 +57,9 @@ module.exports = {
       },
       maxWidth: {
         134: '134px',
-        1544: '1544px',
         850: '850px',
         617: '617px',
+        1200: '1200px'
       },
       spacing: {
         18: '72px',
