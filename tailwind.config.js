@@ -92,7 +92,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        'footer': "url('./assets/bg-footer.jpg')",
+        'footer': "url('./../../assets/bg-footer.jpg')",
       },
       fontSize: {
         13: ['0.8125rem', ],
