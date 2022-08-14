@@ -29,6 +29,9 @@ module.exports = {
           900: "#212121" // black
         },
       },
+      borderWidth: {
+        3: '3px'
+      },
       width: {
         800: '800px',
         170: '170px',
@@ -41,6 +44,7 @@ module.exports = {
         56: '56%',
         67: '67%',
         78: '78%',
+        427: '427px'
       },
       height: {
         122: '122px',
@@ -102,6 +106,7 @@ module.exports = {
       boxShadow: {
         'menu-shadow': '0px -10px 20px #0000000D',
         'fixed-shadow': 'box-shadow: 0px -10px 20px #0000000D',
+        'menu': ' 5px 0px 20px #15151533'
       },
 
       minHeight: {
