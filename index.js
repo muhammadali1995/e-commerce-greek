@@ -1,9 +1,6 @@
 import $ from "jquery";
 import slick from 'slick-carousel';
 
-<<<<<<< HEAD
-$(document).on('ready', function () {
-=======
 $(window).on('load', function () {
     const breakpoints = {
         xs: 280,
@@ -15,7 +12,6 @@ $(window).on('load', function () {
     }
 
     console.log('ready')
->>>>>>> main
     $(".product-slider").slick({
         infinite: false,
         slidesToShow: 8,
@@ -117,7 +113,6 @@ $(window).on('load', function () {
             post.children[0].classList.replace('flex', 'hidden')
         })
     })
-<<<<<<< HEAD
 
 
 
@@ -142,7 +137,3 @@ $(window).on('load', function () {
     })
     // MENU
 });
-=======
-});
-
->>>>>>> main
