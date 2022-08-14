@@ -93,12 +93,6 @@ module.exports = {
 
       backgroundImage: {
         'footer': "url('./assets/bg-footer.jpg')",
-        'slide1': "url('./assets/slider1.png')",
-        'discount1': "url('./assets/discount1.png')",
-        'discount2': "url('./assets/discount2.png')",
-        'discount3': "url('./assets/discount3.png')",
-        'discount4': "url('./assets/discount4.png')",
-        'discount5': "url('./assets/discount5.png')",
       },
       fontSize: {
         13: ['0.8125rem', ],

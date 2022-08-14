@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@parcel/resolver-glob": "^2.7.0",
+    "netlify-cli": "^10.17.4",
     "parcel": "^2.7.0"
   },
   "description": ""
