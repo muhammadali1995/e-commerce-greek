@@ -1,1 +1,18 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
 ./output.css
+
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+.parcel-cache
+dist

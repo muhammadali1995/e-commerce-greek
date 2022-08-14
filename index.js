@@ -1,14 +1,17 @@
-const breakpoints = {
-    xs: 280,
-    sm: 640,
-    md: 768,
-    lg: 1024,
-    xl: 1280,
-    xxl: 1536,
-}
+import $ from "jquery";
+import slick from 'slick-carousel';
 
+$(window).on('load', function () {
+    const breakpoints = {
+        xs: 280,
+        sm: 640,
+        md: 768,
+        lg: 1024,
+        xl: 1280,
+        xxl: 1536,
+    }
 
-$(document).on('ready', function () {
+    console.log('ready')
     $(".product-slider").slick({
         infinite: false,
         slidesToShow: 8,
@@ -53,13 +56,12 @@ $(document).on('ready', function () {
             }
         ]
     });
-    $('.slide-prev').click(function (e) {
-        console.log(this, e)
+
+    $('.slide-prev').on('click', function () {
         $('.slickWrapper').slick('slickPrev');
     })
 
-    $('.slide-next').click(function (e) {
-        console.log(this, e)
+    $('.slide-next').on('click', function () {
         $('.slickWrapper').slick('slickNext');
     })
 
@@ -72,7 +74,7 @@ $(document).on('ready', function () {
         dots: true,
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: breakpoints.md,
                 settings: {
                     slidesToShow: 1.1,
                     slidesToScroll: 1,
@@ -90,7 +92,7 @@ $(document).on('ready', function () {
         dots: false,
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: breakpoints.md,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -102,17 +104,16 @@ $(document).on('ready', function () {
 
 
     // BANNER SLIDER SECTION
+    const instaPosts = document.querySelectorAll('.feed-slide');
 
-    const insta = document.querySelectorAll('.feed-slide');
-
-    insta.forEach(e => {
-        e.addEventListener('mouseover', () => {
-            e.children[0].classList.replace('hidden', 'flex')
-            console.log(e)
+    instaPosts.forEach(post => {
+        post.addEventListener('mouseover', () => {
+            post.children[0].classList.replace('hidden', 'flex')
         })
 
-        e.addEventListener('mouseleave', () => {
-            e.children[0].classList.replace('flex', 'hidden')
+        post.addEventListener('mouseleave', () => {
+            post.children[0].classList.replace('flex', 'hidden')
         })
     })
 });
+
