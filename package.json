@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/muhammadali1995/e-commerce-greek/issues"
   },
-  "homepage": "https://github.com/muhammadali1995/e-commerce-greek#readme"
+  "homepage": "https://github.com/muhammadali1995/e-commerce-greek#readme",
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
 }
