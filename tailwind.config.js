@@ -44,7 +44,8 @@ module.exports = {
         56: '56%',
         67: '67%',
         78: '78%',
-        427: '427px'
+        500: '500px',
+        1190: '1190px',
       },
       height: {
         122: '122px',
@@ -92,16 +93,10 @@ module.exports = {
       },
 
       backgroundImage: {
-        'footer': "url('./assets/bg-footer.jpg')",
-        'slide1': "url('./assets/slider1.png')",
-        'discount1': "url('./assets/discount1.png')",
-        'discount2': "url('./assets/discount2.png')",
-        'discount3': "url('./assets/discount3.png')",
-        'discount4': "url('./assets/discount4.png')",
-        'discount5': "url('./assets/discount5.png')",
+        'footer': "url('./../../assets/bg-footer.jpg')",
       },
       fontSize: {
-        13: ['0.8125rem', ],
+        13: ['0.8125rem',],
       },
       boxShadow: {
         'menu-shadow': '0px -10px 20px #0000000D',
