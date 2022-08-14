@@ -413,15 +413,14 @@ video {
 .max-w-1920 {
   margin-left: auto;
   margin-right: auto;
-  max-width: 120rem;
+  max-width: 1920px;
   overflow: hidden;
 }
 
 .section-container {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  max-width: 96.5rem;
+  max-width: 1544px;
 }
 
 .navbar {
@@ -467,6 +466,12 @@ video {
   line-height: 1.75rem;
   --tw-text-opacity: 1;
   color: rgb(129 129 129 / var(--tw-text-opacity));
+}
+
+.p-lg {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
 }
 
 .p {
@@ -1678,6 +1683,10 @@ video {
   width: 0.75rem;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -1692,6 +1701,10 @@ video {
 
 .max-w-1200 {
   max-width: 1200px;
+}
+
+.max-w-1080 {
+  max-width: 1080px;
 }
 
 .rotate-180 {
@@ -1976,10 +1989,6 @@ video {
   line-height: 1.5rem;
 }
 
-.text-\[0\.5rem\] {
-  font-size: 0.5rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -2097,7 +2106,31 @@ body {
   overflow: hidden;
 }
 
-@media (max-width:768px){
+.checkbox {
+  width: 18px;
+  height: 18px;
+  background-image: url('./assets/icon_checked.svg');
+  background-repeat: no-repeat;
+  background-size:70%;
+  background-position: center;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+  padding: 0;
+}
+
+.checkbox:checked {
+  background-image: url('./assets/icon-tick-white.svg');
+  background-size: 70%;
+  background-position: center;
+  border: 1px solid black;
+  background-color:black;
+}
+
+@media (max-width:768px) {
   .slide {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -2122,6 +2155,24 @@ body {
 
 .placeholder\:text-13::placeholder {
   font-size: 0.8125rem;
+}
+
+.placeholder\:font-bold::-moz-placeholder {
+  font-weight: 700;
+}
+
+.placeholder\:font-bold::placeholder {
+  font-weight: 700;
+}
+
+.placeholder\:text-gray-900::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(33 33 33 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-gray-900::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(33 33 33 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
