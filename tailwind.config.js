@@ -1,39 +1,50 @@
 module.exports = {
-  content: ["./*.html", "./**/*.html"],
+  content: [
+    "./*.html",
+    "./**/**/*.html"
+  ],
   theme: {
     extend: {
       colors: {
-        "dark-green": "#009289",
-        "red": "#DD1B1E",
-        "gray-black": "#5a5a5a",
-        "gray-light": "#818181",
-        "dark": "#999999",
-        "gray": "#f9f9f9",
-        "black-light": "#7c7c7c",
-        "black": "#212121",
-        "line-color": "#e6e6e6",
-        "light-gray": "#bdbdbd",
-        "hr-color": "#bdbdbd",
-        "white-light": "#F1F1F1",
+        "blue": "#3A66B8",
+        "orange": "#EF7F1A",
+        "black-pearl": "#161819",
+        "green": {
+          400: "#14C687",
+          700: "#009289"
+        },
+        "red": {
+          300: "#E74C3C",
+          500: "#DD1B1E"
+        },
+        "gray": {
+          50: "#F1F1F1", //white-light
+          100: "#e6e6e6", // line-color
+          200: "#bdbdbd", // gray-200, hr-color
+          400: "#999999", // dark
+          500: "#f9f9f9", // gray
+          600: "#818181", // grey light
+          700: "#7c7c7c", // black light
+          800: "#5a5a5a", // gray black
+          900: "#212121" // black
+        },
+      },
+      borderWidth: {
+        3: '3px'
       },
       width: {
         800: '800px',
-        176: '176px',
         170: '170px',
         407: '407px',
         250: '250px',
         254: '254px',
         240: '240px',
-        211: '211px',
-        200: '200px',
         182: '182px',
-        125: '120px',
         695: '695px',
-        285:'285px',
-        84:'84px',
         56: '56%',
         67: '67%',
         78: '78%',
+        427: '427px'
       },
       height: {
         122: '122px',
@@ -42,45 +53,44 @@ module.exports = {
         220: '220px',
         200: '200px',
         190: '190px',
-        125:'125px',
+        125: '125px',
       },
       maxWidth: {
         134: '134px',
-        617:'617px',
         850: '850px',
         1080: '1080px',
-        1200: '1200px',
-        1544: '1544px',
+        617: '617px',
+        1200: '1200px'
       },
       spacing: {
-        13: '14px',
-        3.5: '14px',
         18: '72px',
+        13: '14px',
         19: '18px',
         21: '20px',
-        22: '22px',
-        29: '29px',
         30: '30px',
-        34: '34px',
         38: '38px',
-        50: '50px',
-        54: '54px',
-        59: '59px',
+        21: '21px',
+        22: '22px',
         61: '61px',
+        3.5: '14px',
+        54: '54px',
         68: '68px',
         70: '70px',
         75: '75px',
+        29: '29px',
         90: '90px',
-        106: '106px',
         116: '116px',
+        106: '106px',
         120: '120px',
         128: '128px',
         140: '140px',
       },
+
       lineHeight: {
         21: '21px',
         22: '22px',
       },
+
       backgroundImage: {
         'footer': "url('./assets/bg-footer.jpg')",
         'slide1': "url('./assets/slider1.png')",
@@ -90,17 +100,18 @@ module.exports = {
         'discount4': "url('./assets/discount4.png')",
         'discount5': "url('./assets/discount5.png')",
       },
+      fontSize: {
+        13: ['0.8125rem', ],
+      },
       boxShadow: {
         'menu-shadow': '0px -10px 20px #0000000D',
         'fixed-shadow': 'box-shadow: 0px -10px 20px #0000000D',
+        'menu': ' 5px 0px 20px #15151533'
       },
+
       minHeight: {
         761: '761px',
-        345: '345px',
-        197: '197px',
-      },
-      fontSize: {
-        18: '18px'
+        345: '345px'
       },
       maxHeight: {
         417: '417px',

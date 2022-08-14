@@ -1,9 +1,9 @@
 {
   "name": "e-commerce-greek",
   "version": "1.0.0",
-  "description": "",
   "main": "tailwind.config.js",
   "scripts": {
+    "dev": "parcel index.html",
     "build": "npx tailwindcss -i ./index.css -o ./output.css --watch"
   },
   "repository": {
@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/muhammadali1995/e-commerce-greek/issues"
   },
-  "homepage": "https://github.com/muhammadali1995/e-commerce-greek#readme"
+  "homepage": "https://github.com/muhammadali1995/e-commerce-greek#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "jquery": "^3.6.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@parcel/resolver-glob": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "description": ""
 }
