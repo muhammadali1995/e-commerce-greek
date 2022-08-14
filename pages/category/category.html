@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
     <script src="../../pages/index.js" defer></script>
@@ -97,7 +95,7 @@
                     <div class="flex flex-col items-start justify-between mt-4">
                         <div class="flex items-center justify-between">
                             <label class="flex items-center mr-2">
-                                <input type="checkbox" class="mr-3">
+                                <input type="checkbox" class="mr-3 checkbox">
                                 <h4 class="w-211 text-13 text-gray-900">Α’ Ύλες </h4>
                             </label>
                             <img src="../../assets/icon_select.svg" alt="icon_select">
@@ -310,7 +308,7 @@
                         class="placeholder:p-lg py-2 px-3 border border-gray-100 outline-none w-1/2">
                 </div>
                 <label for="range">
-                    <input id="range" type="range" class="mt-8">
+                    <input id="range" multiple type="range" class="mt-8">
                 </label>
             </form>
             <div class="bg-gray-100 w-full h-px mt-50"></div>
@@ -331,24 +329,20 @@
                 <div class="flex items-center justify-between mt-5">
                     <div class="flex items-center">
                         <button
-                            class="w-84 flex items-center justify-between py-2 px-3 mr-2.5 bg-gray-50 border border-line-color">
-                            <p class="font-extrabold text-xs text-black">Α’ Ύλες</p>
+                            class="flex items-center justify-between py-2 px-3 mr-2.5 bg-gray-50 border border-gray-100">
+                            <p class="font-extrabold p-lg text-gray-900 mr-3">Α’ Ύλες</p>
                             <p class="p-md"><i class="fa-solid fa-xmark"></i></p>
                         </button>
                         <button
-                            class="w-84 flex items-center justify-between py-2 px-3 mr-5 bg-gray-50 border border-line-color">
-                            <p class="font-extrabold text-xs text-black">ALCON</p>
-                            <p style="font-size: 10px;"><i class="fa-solid fa-xmark"></i></p>
+                            class="flex items-center justify-between py-2 px-3 mr-5 bg-gray-50 border border-gray-100">
+                            <p class="font-extrabold p-lg text-gray-900 mr-3">ALCON</p>
+                            <p class="p-md"><i class="fa-solid fa-xmark"></i></p>
                         </button>
                         <p class="font-extrabold text-xs text-black">εκκαθάριση</p>
                     </div>
-                    <div class="flex items-center justify-between w-176 border border-line-color py-2 px-3">
-                        <p class="text-xs text-black font-bold">Ταξινόμηση:</p>
-                        <div class="text-xs flex flex-col justify-center">
-                            <button class="text-6"><i class="fa-solid fa-chevron-up"></i></button>
-                            <button class="text-[0.5rem]"><i class="fa-solid fa-angle-down"></i></button>
-                        </div>
-                    </div>
+                    <form class="flex items-center justify-between ">
+                        <input type="number" placeholder="Ταξινόμηση:" class="w-44 border border-gray-100 py-2 px-3 outline-none placeholder:text-p-lg placeholder:font-bold placeholder:text-gray-900">
+                    </form>
                 </div>
             </div>
             <div
@@ -360,7 +354,7 @@
                     <div class="card-hr"></div>
                     <div class="card-cont-text">
                         <div class="">
-                            <h2 class="card-title">Δαφνέλαιο Kanavos</h2>
+                            <h2 class="card-title">tonic mountain tea</h2>
                             <p class="card-subtitle">Δαφνέλαιο Kanavos 250ml</p>
                         </div>
                         <p class="card-content md:mt-5">Συνδεθείτε για να δείτε την τιμή</p>
