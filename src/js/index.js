@@ -3,7 +3,6 @@ import slick from 'slick-carousel';
 import menu from './menu'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './../styles/output.css'
 
 $(window).on('load', function () {
     const breakpoints = {

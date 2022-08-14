@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "npx tailwindcss -i ./src/styles/index.css -o ./src/styles/output.css --watch"
+    "dev": "parcel ./src/pages/*.html",
+    "build": "npx tailwindcss -i ./index.css -o ./src/styles/output.css --watch"
   },
   "repository": {
     "type": "git",
