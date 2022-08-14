@@ -1,6 +1,8 @@
 import $ from "jquery";
 import slick from 'slick-carousel';
 import menu from './menu'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 $(window).on('load', function () {
     const breakpoints = {
@@ -12,7 +14,6 @@ $(window).on('load', function () {
         xxl: 1536,
     }
 
-    console.log('ready')
     $(".product-slider").slick({
         infinite: false,
         slidesToShow: 8,
