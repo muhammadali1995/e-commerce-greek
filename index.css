@@ -8,11 +8,11 @@ body {
 
 @layer base {
   .max-w-1920 {
-    @apply max-w-[120rem] mx-auto overflow-hidden;
+    @apply max-w-[1920px] mx-auto overflow-hidden;
   }
 
   .section-container {
-    @apply max-w-[96.5rem] w-full mx-auto;
+    @apply max-w-[1544px] mx-auto;
   }
 
   .navbar {
