@@ -63,7 +63,7 @@ module.exports = {
         1200: '1200px'
       },
       spacing: {
-        18: '72px',
+        18: '72px', // muhim bu
         13: '14px',
         19: '18px',
         21: '20px',
