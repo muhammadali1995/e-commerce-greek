@@ -44,7 +44,8 @@ module.exports = {
         56: '56%',
         67: '67%',
         78: '78%',
-        427: '427px'
+        500: '500px',
+        1190: '1190px',
       },
       height: {
         122: '122px',
@@ -101,7 +102,7 @@ module.exports = {
         'discount5': "url('./assets/discount5.png')",
       },
       fontSize: {
-        13: ['0.8125rem', ],
+        13: ['0.8125rem',],
       },
       boxShadow: {
         'menu-shadow': '0px -10px 20px #0000000D',

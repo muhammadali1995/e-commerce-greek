@@ -255,7 +255,15 @@ body {
   }
 
   .dropdown h5 {
-    @apply ml-4 font-medium
+    @apply ml-4 font-medium mt-5
+  }
+
+  .subDropdown h3 {
+    @apply font-bold text-green-700 mt-5
+  }
+
+  .subDropdown p {
+    @apply mt-1
   }
 }
 
