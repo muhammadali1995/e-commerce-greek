@@ -113,9 +113,5 @@ $(window).on('load', function () {
         post.addEventListener('mouseleave', () => {
             post.children[0].classList.replace('flex', 'hidden')
         })
-    })
-
-
-
-    
+    })    
 });
