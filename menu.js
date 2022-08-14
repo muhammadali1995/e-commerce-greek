@@ -1,4 +1,3 @@
-// MENU
 const menuBtn = document.getElementById('menuBtn')
 const menuCloseBtn = document.getElementById('menuCloseBtn')
 const menubar = document.getElementById('menubar')
@@ -17,4 +16,3 @@ dropdownItems.forEach(item => {
         item.setAttribute('style', 'color:#009289 !important;')
     })
 })
-// MENU
