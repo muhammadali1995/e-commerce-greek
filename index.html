@@ -36,11 +36,16 @@
             <img src="./assets/phone.svg" alt="phone" class="block md:hidden ml-2">
         </div>
         <div class="flex items-center justify-between px-4 pt-3 pb-2">
-            <div class="flex items-center">
+            <div class="flex items-center relative">
                 <a href="/"> <img src="./assets/main-logo.png" alt="main-logo" class="w-36 sm:w-182"></a>
-                <div class="items-center lg:ml-61 mt-3.5 ml-4 hidden md:flex">
-                    <a href="/"><img src="./assets/menu.svg" alt="menu" class=""></a>
+                <div class="items-center lg:ml-61 mt-3.5 ml-4 hidden md:flex relative">
+                    <button id="menuBtn">
+                        <img src="./assets/menu.svg" alt="menu">
+                    </button>
                     <p class="ml-4">Προϊόντα</p>
+                </div>
+                <div id="menubar" class="absolute top-16 border-t-3 w-427 border-t-line-color -ml-4 bg-white">
+                    <input type="text" placeholder="Όλες οι κατηγορίες">
                 </div>
             </div>
             <div class="items-center hidden md:flex">
@@ -250,7 +255,7 @@
     <!-- SLIDER -->
     <section class="mt-70">
         <div class="banner-slider">
-            <div class="slide relative md:ml-7 mx-7 md:mr-0">
+            <div class="slide relative md:ml-7 md:mx-7 md:mr-0">
                 <img src="./assets/slider1.png" alt="slide" class="absolute w-full h-full top-0 left-0 object-cover">
                 <div class="relative">
                     <div>
