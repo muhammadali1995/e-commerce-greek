@@ -7,7 +7,6 @@ const breakpoints = {
     xxl: 1536,
 }
 
-
 $(document).on('ready', function () {
     $(".product-slider").slick({
         infinite: false,
@@ -63,7 +62,6 @@ $(document).on('ready', function () {
         $('.slickWrapper').slick('slickNext');
     })
 
-
     // BANNER SLIDER SECTION
     $(".banner-slider").slick({
         infinite: true,
@@ -100,7 +98,6 @@ $(document).on('ready', function () {
         ]
     });
 
-
     // BANNER SLIDER SECTION
 
     const insta = document.querySelectorAll('.feed-slide');
@@ -115,4 +112,27 @@ $(document).on('ready', function () {
             e.children[0].classList.replace('flex', 'hidden')
         })
     })
+
+
+
+    // MENU
+    const menuBtn = document.getElementById('menuBtn')
+    const menuCloseBtn = document.getElementById('menuCloseBtn')
+    const menubar = document.getElementById('menubar')
+    const dropdownItems = document.querySelectorAll('.dropdown')
+    menuBtn.addEventListener('click', () => {
+        menubar.classList.toggle('hidden')
+    })
+
+    menuCloseBtn.addEventListener('click', () => {
+        menubar.classList.add('hidden')
+    })
+    console.log(dropdownItems)
+    dropdownItems.forEach(item => {
+        item.addEventListener('click', () => {
+            dropdownItems.forEach(e => e.removeAttribute('style'))
+            item.setAttribute('style', 'color:#009289 !important;')
+        })
+    })
+    // MENU
 });
