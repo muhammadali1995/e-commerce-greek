@@ -190,7 +190,7 @@ body {
   }
 
   .discount-img {
-    @apply flex items-start justify-between flex-col md:py-5 sm:p-3 pt-2.5 pb-2 pl-2.5 md:px-4 text-black bg-center bg-no-repeat sm:min-h-full min-h-[168px];
+    @apply relative h-full flex items-start justify-between flex-col md:py-5 sm:p-3 pt-2.5 pb-2 pl-2.5 md:px-4 text-black;
   }
 
   .header img {
@@ -236,7 +236,7 @@ body {
   .seller img {
     @apply object-cover absolute mb-5;
   }
-
+ 
   .dot {
     @apply absolute bg-red-500 rounded-full -top-3 w-5 h-5 flex items-center justify-center text-white text-xs -right-3;
   }
@@ -246,7 +246,15 @@ body {
   }
 
   .banner-slider .slick-track {
-    @apply flex items-center justify-center ml-[13%];
+    @apply flex items-center justify-center ml-[13%] md:gap-6;
+  }
+
+  .banner-slider .slick-track .slick-slide {
+   @apply -mr-44 sm:-mr-0
+  }
+
+  .Discount {
+    @apply lg:h-[760px]
   }
 
   .dropdown {
@@ -266,6 +274,10 @@ body {
 
   .subDropdown p {
     @apply mt-1;
+  }
+
+  .product-slider .slick-track, {
+      @apply flex md:gap-6
   }
 }
 

@@ -41,7 +41,6 @@ module.exports = {
         100: '400px',
         270: '1080px',
       },
-
       spacing: {
         4.5: '18px',
         7.5: '30px',
