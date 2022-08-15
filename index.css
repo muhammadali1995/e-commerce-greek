@@ -112,16 +112,17 @@ body {
     @apply border border-white p-4 text-sm -tracking-[1.2px] mb-2.5;
   }
 
-  .footer-line {
-    @apply bg-gray-400 h-px mt-2 mb-3 md:my-3;
-  }
 
   .footer-item-line {
-    @apply bg-gray-800 w-2 h-[2px] block sm:hidden -mr-4;
+    @apply bg-gray-800 w-2 h-[2px] block sm:hidden;
   }
 
   .footer-li-flex {
     @apply font-bold flex items-center justify-between;
+  }
+
+  .footer-block {
+    @apply pb-4.5 w-full border-b border-b-gray-400 sm:border-0 sm:w-auto
   }
 
   .footer-bg {
@@ -169,7 +170,7 @@ body {
   }
 
   .hr-line {
-    @apply w-px h-122 bg-gray-50 mx-2 lg:mx-0 hidden lg:block;
+    @apply w-px h-32 bg-gray-50 mx-2 lg:mx-0 hidden lg:block;
   }
 
   .hr-lines {
@@ -245,26 +246,26 @@ body {
   }
 
   .banner-slider .slick-track {
-    @apply flex items-center justify-center ml-[13%]
+    @apply flex items-center justify-center ml-[13%];
   }
 
   .dropdown {
-    @apply flex items-center justify-between py-3 cursor-pointer
+    @apply flex items-center justify-between py-3 cursor-pointer;
   }
-  .dropdown div{
-    @apply flex items-center
+  .dropdown div {
+    @apply flex items-center;
   }
 
   .dropdown h5 {
-    @apply ml-4 font-medium mt-5
+    @apply ml-4 font-medium mt-5;
   }
 
   .subDropdown h3 {
-    @apply font-bold text-green-700 mt-5
+    @apply font-bold text-green-700 mt-5;
   }
 
   .subDropdown p {
-    @apply mt-1
+    @apply mt-1;
   }
 }
 
@@ -301,9 +302,9 @@ body {
 .checkbox {
   width: 18px;
   height: 18px;
-  background-image: url('./../../assets/icon_checked.svg');
+  background-image: url("./../../assets/icon_checked.svg");
   background-repeat: no-repeat;
-  background-size:70%;
+  background-size: 70%;
   background-position: center;
   appearance: none;
   -webkit-appearance: none;
@@ -314,14 +315,14 @@ body {
 }
 
 .checkbox:checked {
-  background-image: url('./../../assets/icon-tick-white.svg');
+  background-image: url("./../../assets/icon-tick-white.svg");
   background-size: 70%;
   background-position: center;
   border: 1px solid black;
-  background-color:black;
+  background-color: black;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .slide {
     margin-left: 0 !important;
     margin-right: 0 !important;
