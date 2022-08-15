@@ -251,19 +251,21 @@
             <div class="flex w-full flex-col-reverse md:flex-row">
                 <div class="flex md:w-1/2 overflow-hidden flex-row-reverse md:flex-row w-full mt-1 md:mt-0 max-h-104">
                     <a href="/" class="md:w-7/12 overflow-hidden w-1/2">
-                        <img src="./../../assets/header1.png" alt="header1" class="h-190 md:h-full w-full">
+                        <img src="./../../assets/header1.png" alt="header1"
+                            class="max-h-48 md:max-h-max h-full w-full object-cover">
                     </a>
                     <a href="/" class="md:w-2/3 w-1/2 md:ml-5 overflow-hidden mr-1 md:mr-0">
-                        <img src="./../../assets/header2.png" alt="header2" class="h-190 md:h-full w-full">
+                        <img src="./../../assets/header2.png" alt="header2"
+                            class="max-h-48 md:max-h-max h-full w-full object-cover">
                     </a>
                 </div>
                 <a href="/" class="md:w-1/2 w-full ml-0 md:ml-5 overflow-hidden">
                     <img src="./../../assets/header3.png" alt="header3" class="h-full w-full hidden md:block">
-                    <img src="./../../assets/header4.png" alt="header4" class="h-200 md:h-full w-full md:hidden">
+                    <img src="./../../assets/header4.png" alt="header4" class="md:h-full w-full md:hidden">
                 </a>
             </div>
             <div class="mt-5 max-w-full overflow-hidden hidden md:flex max-h-104">
-                <a href="/" class="w-1/2 overflow-hidden max-w-850">
+                <a href="/" class="w-1/2 overflow-hidden">
                     <img src="./../../assets/header4.png" alt="header4" class="h-full w-full">
                 </a>
                 <div class="flex w-7/12">
@@ -945,9 +947,9 @@
         <footer class="footer-bg sm:mt-7 md:pt-15 border-y border-line-color pt-7 mb-14 sm:mb-0">
             <div class="section-container px-4 xl:pl-14  md:pr-9 md:pt-3 pb-2 md:pb-16">
                 <a href="/"><img src="./../../assets/main-logo.png" alt="main-logo" class="w-36 md:w-250"></a>
-                <div class="sm:flex sm:flex-wrap lg:flex-row items-start justify-between text-xs leading-5.5
-                md:text-sm text-gray-800 mt-7 sm:mt-18 md:ml-2">
-                    <div class="mb-7 md:mb-6 lg:mb-0 mr-5 lg:mr-0">
+                <div class="flex flex-col sm:flex-wrap sm:flex-row items-start lg:justify-between text-xs leading-5.5
+                md:text-sm text-gray-800 mt-7 sm:mt-18 md:ml-2 gap-4.5 sm:gap-5 lg:gap-0">
+                    <div class="footer-block md:mb-6 lg:mb-0 order-1">
                         <p class="text-sm">
                             Εταιρεία δεύτερης γενιάς που <br class="hidden sm:block"> προμηθεύει φαρμακαποθήκες & <br
                                 class="hidden sm:block"> φαρμακεία με
@@ -955,26 +957,9 @@
                             <br class="hidden sm:block"> ιατροτεχνολογικά & χημικές ουσίες πάνω <br
                                 class="hidden sm:block">
                             από 30 χρόνια…
-                        </p class="hidden sm:block">
-                        <div class="items-center hidden sm:flex max-w-134 justify-between mt-32">
-                            <a href="/"><img src="./../../assets/insta-icon.svg" alt="insta-icon"></a>
-                            <a href="/"><img src="./../../assets/fb-icon.svg" alt="fb-icon"></a>
-                            <a href="/"><img src="./../../assets/youtube-icon.svg" alt="youtube-icon"></a>
-                        </div>
+                        </p>
                     </div>
-                    <div class="footer-line"></div>
-                    <ul class="mr-5 lg:mr-0 sm:hidden">
-                        <li class="footer-li-flex">
-                            <a href="/">Μενού</a>
-                            <div class="footer-item-line"></div>
-                        </li>
-                        <li><a href="/">O Λογαριασμός μου</a></li>
-                        <li><a href="/">Εταιρεία</a></li>
-                        <li><a href="/">Nέα</a></li>
-                        <li><a href="/">Επικοινωνία</a></li>
-                    </ul>
-                    <div class="footer-line"></div>
-                    <ul class="mr-5 lg:mr-0">
+                    <ul class="footer-block order-3">
                         <li class="footer-li-flex">
                             <a href="/">Κατηγορίες</a>
                             <div class="footer-item-line"></div>
@@ -991,7 +976,7 @@
                         <li><a href="/">Διάφορα</a></li>
                         <li><a href="/">Είδη Covid-19</a></li>
                     </ul>
-                    <ul class="mr-5 lg:mr-0 hidden sm:block">
+                    <ul class="footer-block order-2">
                         <li class="footer-li-flex">
                             <a href="/">Μενού</a>
                             <div class="footer-item-line"></div>
@@ -1001,8 +986,7 @@
                         <li><a href="/">Nέα</a></li>
                         <li><a href="/">Επικοινωνία</a></li>
                     </ul>
-                    <div class="footer-line"></div>
-                    <ul class="mr-5 lg:mr-0">
+                    <ul class="footer-block order-4">
                         <li class="footer-li-flex">
                             <a href="/">Πληροφορίες</a>
                             <div class="footer-item-line"></div>
@@ -1012,32 +996,28 @@
                         <li><a href="/">Τρόποι Αποστολής</a></li>
                         <li><a href="/">Ατομική Φροντίδα - Ευεξία</a></li>
                     </ul>
-                    <div class="footer-line"></div>
-                    <div class="">
-                        <ul>
+                    <div class="footer-block mb-2 order-5">
+                        <ul class="mb-7">
                             <li class="font-bold"><a href="/">Syndesmos S.A.</a></li>
                             <li><a href="/">Ψαρών 17 & Αιγίνης, 131 22 Ίλιον, Ελλάδα</a></li>
                             <li class="font-bold"><a href="/"><span class="text-red">T</span> 210 269 3600 </a></li>
                         </ul>
-                        <br>
-                        <ul>
+                        <ul class="mb-7">
                             <li class="font-bold"><a href="/">GMP Facility</a></li>
                             <li><a href="/">Νερατζούλας 10,</a></li>
                             <li><a href="/">136 72 Αχαρναί, Ελλάδα</a></li>
                         </ul>
-                        <br>
                         <ul>
                             <li class="font-bold"><a href="/"><span class="text-red">T</span> 210 269 3600</a></li>
                             <li class="font-bold"><a href="/"><span class="text-red">E</span> info@syndesmossa.com</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-line"></div>
-                    <div class="flex sm:hidden items-center max-w-134 justify-between mt-1 mb-4">
-                        <a href="/"><img src="./../../assets/insta-icon.svg" alt="insta-icon"></a>
-                        <a href="/"><img src="./../../assets/fb-icon.svg" alt="fb-icon"></a>
-                        <a href="/"><img src="./../../assets/youtube-icon.svg" alt="youtube-icon"></a>
-                    </div>
+                </div>
+                <div class="flex items-center gap-6 mt-1 mb-4 md:ml-2">
+                    <a href="/"><img src="./../../assets/insta-icon.svg" alt="insta-icon"></a>
+                    <a href="/"><img src="./../../assets/fb-icon.svg" alt="fb-icon"></a>
+                    <a href="/"><img src="./../../assets/youtube-icon.svg" alt="youtube-icon"></a>
                 </div>
             </div>
             <div class="bg-white h-1 sm:mt-12 lg:mt-19"></div>
@@ -1052,7 +1032,7 @@
                         <a href="/"><span class="mx-2">|</span> Terms & Conditions</a>
                     </div>
                     <div class="flex items-center">
-                        <p class="paragraph-large text-gray-light mr-2">
+                        <p class="p-lg text-gray-600 font-medium mr-2">
                             Designed & Developed by
                         </p>
                         <img src="./../../assets/footer-img-text.png" alt="footer-img-text" class="w-44 px-1.5">
