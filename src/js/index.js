@@ -35,7 +35,7 @@ $(window).on('load', function () {
             {
                 breakpoint: breakpoints.lg,
                 settings: {
-                    slidesToShow: 6,
+                    slidesToShow: 5,
                 }
             },
             {
@@ -71,7 +71,7 @@ $(window).on('load', function () {
     $(".banner-slider").slick({
         infinite: true,
         slidesToScroll: 1,
-        slidesToShow: 2.3,
+        slidesToShow: 1.9,
         dots: true,
         responsive: [
             {
