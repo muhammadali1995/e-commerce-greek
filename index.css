@@ -68,11 +68,15 @@ body {
   }
 
   .card-title {
-    @apply mt-3 font-bold text-xs md:text-base text-black;
+    @apply font-bold text-xs md:text-base text-black;
   }
 
   .card-subtitle {
     @apply text-gray-800 md:text-sm text-xs;
+  }
+
+  .card-cont-text {
+    @apply flex justify-between flex-col ml-3 mt-3 bg-white h-18 md:h-28;
   }
 
   .card-content {
@@ -91,9 +95,6 @@ body {
     @apply h-auto max-h-full;
   }
 
-  .card-cont-text {
-    @apply flex justify-between flex-col ml-3 bg-white h-18 md:h-28;
-  }
 
   .slide {
     @apply lg:max-w-[1132px] -mt-[20px] max-w-[90%] bg-no-repeat bg-cover h-[375px] md:h-[448px] flex flex-col justify-between items-center md:items-start py-7 px-12 text-white mx-[0!important] md:mx-auto;

@@ -46,7 +46,7 @@ module.exports = {
         4.5: '18px',
         7.5: '30px',
         15: '60px',
-        18: '72px',
+        18: '72px'
       },
 
       lineHeight: {
@@ -56,9 +56,11 @@ module.exports = {
       backgroundImage: {
         'footer': "url('./../../assets/bg-footer.jpg')",
       },
+
       fontSize: {
         13: ['0.8125rem'],
       },
+      
       boxShadow: {
         'menu-shadow': '0px -10px 20px #0000000D',
         'fixed-shadow': 'box-shadow: 0px -10px 20px #0000000D',

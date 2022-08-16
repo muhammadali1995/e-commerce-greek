@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./../../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./../styles/output.css">
     <script type="module" src="./../js/index.js" defer></script>
     <title>Document</title>
@@ -58,22 +59,23 @@
 
     <!-- HEADER -->
     <div class="section-container flex items-center justify-center mt-5 gap-3">
-        <div class="w-1/2">
+        <div class="md:w-1/2">
             <a href="/"><img src="../../assets/topbanner01.jpeg" alt="topbanner"></a>
         </div>
-        <div class="w-1/2">
+        <div class="w-1/2 hidden md:block">
             <a href="/"><img src="../../assets/topbanner02.jpeg" alt="topbanner" class="border border-black"></a>
         </div>
     </div>
     <!-- HEADER -->
 
     <!-- CARDS -->
-    <section class="section-container gap-14 mt-8 flex items-start justify-between">
-        <div class="w-1/5">
+    <section
+        class="section-container gap-2.5 md:gap-5 lg:gap-8 2xl:gap-14 px-4 2xl:px-0 mt-4.5 md:mt-8 flex items-start justify-between">
+        <div class="w-1/5 hidden md:block">
             <h3 class="p font-bold"><span class="text-gray-800">Αρχική</span> / Προϊόντα</h3>
             <div class="flex items-center justify-between mt-8">
-                <h1 class="title-sm leading-8 font-medium">Φιλτράρισμα</h1>
-                <div>
+                <h1 class="subtitle 2xl:title-sm leading-8 font-medium">Φιλτράρισμα</h1>
+                <div class="w-5">
                     <a href="/">
                         <img src="../../assets/icon_settings.svg" alt="icon_settings" class="w-4">
                     </a>
@@ -87,63 +89,63 @@
                         <img src="../../assets/plus.png" alt="plus" class="w-3">
                     </div>
                     <div class="flex flex-col items-start justify-between mt-4">
-                        <div class="flex items-center justify-between">
+                        <form class="flex items-center justify-between w-full">
                             <label class="flex items-center mr-2">
                                 <input type="checkbox" class="mr-3 checkbox">
                                 <h4 class="w-211 text-13 text-gray-900">Α’ Ύλες </h4>
                             </label>
                             <img src="../../assets/icon_select.svg" alt="icon_select">
-                        </div>
-                        <div class=" mt-2.5">
-                            <div class="flex items-center justify-between">
+                        </form>
+                        <div class=" mt-2.5 w-full">
+                            <form class="flex items-center justify-between w-full">
                                 <label class="flex items-center mr-2">
-                                    <input type="checkbox" class="mr-3">
+                                    <input type="checkbox" class="mr-3 checkbox">
                                     <h4 class="w-211 text-13 text-gray-900">Pack</h4>
                                 </label>
                                 <img src="../../assets/icon_select.svg" alt="icon_select">
-                            </div>
-                            <div class="mt-2.5 w-200 mx-auto">
+                            </form>
+                            <form class="mt-2.5 ml-8">
                                 <label class="flex items-center mr-2">
-                                    <input type="checkbox" class="mr-3">
+                                    <input type="checkbox" class="mr-3 checkbox">
                                     <h4 class="w-211 text-13 text-gray-900">Airless - Foam </h4>
                                 </label>
                                 <label class="flex items-center mt-2.5 mr-2">
-                                    <input type="checkbox" class="mr-3">
+                                    <input type="checkbox" class="mr-3 checkbox">
                                     <h4 class="w-211 text-13 text-gray-900">SAMIX </h4>
                                 </label>
                                 <label class="flex items-center mt-2.5 mr-2">
-                                    <input type="checkbox" class="mr-3">
+                                    <input type="checkbox" class="mr-3 checkbox">
                                     <h4 class="w-211 text-13 text-gray-900">Αντλίες</h4>
                                 </label>
                                 <label class="flex items-center mt-2.5 mr-2">
-                                    <input type="checkbox" class="mr-3">
+                                    <input type="checkbox" class="mr-3 checkbox">
                                     <h4 class="w-211 text-13 text-gray-900">Βάζα</h4>
                                 </label>
                                 <label class="flex items-center mt-2.5 mr-2">
-                                    <input type="checkbox" class="mr-3">
+                                    <input type="checkbox" class="mr-3 checkbox">
                                     <h4 class="w-211 text-13 text-gray-900">Καλούπια</h4>
                                 </label>
                                 <label class="flex items-center mt-2.5 mr-2">
-                                    <input type="checkbox" class="mr-3">
+                                    <input type="checkbox" class="mr-3 checkbox">
                                     <h4 class="w-211 text-13 text-gray-900">Λοιπά </h4>
                                 </label>
                                 <label class="flex items-center mt-2.5 mr-2">
-                                    <input type="checkbox" class="mr-3">
+                                    <input type="checkbox" class="mr-3 checkbox">
                                     <h4 class="w-211 text-13 text-gray-900">Μπιτόνια & Κάδοι</h4>
                                 </label>
                                 <label class="flex items-center mt-2.5 mr-2">
-                                    <input type="checkbox" class="mr-3">
+                                    <input type="checkbox" class="mr-3 checkbox">
                                     <h4 class="w-211 text-13 text-gray-900">Περιέκτες </h4>
                                 </label>
                                 <label class="flex items-center mt-2.5 mr-2">
-                                    <input type="checkbox" class="mr-3">
+                                    <input type="checkbox" class="mr-3 checkbox">
                                     <h4 class="w-211 text-13 text-gray-900">Πώματα</h4>
                                 </label>
                                 <label class="flex items-center mt-2.5 mr-2">
-                                    <input type="checkbox" class="mr-3">
+                                    <input type="checkbox" class="mr-3 checkbox">
                                     <h4 class="w-211 text-13 text-gray-900">Pack</h4>
                                 </label>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -153,44 +155,44 @@
                 <h3 class="text-base font-semibold text-black">Μάρκα</h3>
                 <img src="../../assets/plus.png" alt="plus" class="w-3">
             </div>
-            <label class="relative flex items-center justify-center mt-4">
+            <form class="relative flex items-center justify-center mt-4">
                 <input type="search" placeholder="Search"
                     class="py-2 w-full placeholder:text-13 px-4 border border-line-color outline-none">
                 <button class="absolute right-4">
                     <i class="fa-solid fa-magnifying-glass text-xs"></i>
                 </button>
-            </label>
+            </form>
             <div class="">
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ALCON </h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">BAUSCH & LOMB</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">BEAUTY FORMULAS</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">BEURER</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">Beurer New Products</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">CARNABY</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">CERA DI CUPRA</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">CHICCO</h4>
                 </label>
             </div>
@@ -201,51 +203,51 @@
             </div>
             <div class="">
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΑΣΠΡΟ</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΓΚΡΙ</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΚΙΤΡΙΝΟ</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΚΟΚΚΙΝΟ</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΛΕΥΚΟ</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΜΑΥΡΟ</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΜΠΛΕ</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΜΩΒ</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΠΟΡΤΟΚΑΛΙ</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΠΡΑΣΙΝΟ</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΡΟΖ</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">ΧΡΥΣΟ</h4>
                 </label>
             </div>
@@ -261,31 +263,31 @@
             </div>
             <div class="">
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">Roll-On</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">Spray</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">Stick</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">Ενηλίκων</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">Κρέμες</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">Νυχοκόπτες</h4>
                 </label>
                 <label class="flex items-center mt-2.5 mr-2">
-                    <input type="checkbox" class="mr-3">
+                    <input type="checkbox" class="mr-3 checkbox">
                     <h4 class="w-211 text-13 text-gray-900">Παιδικές</h4>
                 </label>
             </div>
@@ -308,17 +310,22 @@
             <div class="bg-gray-100 w-full h-px mt-50"></div>
         </div>
 
-        <div class="w-4/5">
+        <div class="md:w-4/5 mx-auto">
             <div>
-                <h3 class="title-sm font-bold">Υγεία - Ομορφιά</h3>
-                <p class="max-w-270 card-title font-normal leading-6 mt-3 mb-4">
-                    Η Σύνδεσμος Α.Ε. είναι μιας δεύτερης γενιάς ελληνική εταιρία, που εδώ και 30 χρόνια
-                    προμηθεύει
-                    φαρμακαποθήκες και φαρμακεία με ιατροτεχνολογικά και παραφαρμακευτικά προϊόντα, δραστικές
-                    φαρμακευτικές ουσίες, πρώτες ύλες, <span class="text-line-color">…περισσοτερα</span>
-                </p>
-                <div class="bg-gray-100 w-full h-px"></div>
-                <div class="flex items-center justify-between mt-5">
+                <div>
+                    <div class="flex items-center justify-between">
+                        <h3 class="title-sm font-bold">Υγεία - Ομορφιά</h3>
+                        <i class="fa-solid fa-chevron-right md:hidden"></i>
+                    </div>
+                    <p class="hidden md:block max-w-270 card-title font-normal leading-6 mt-3 mb-4">
+                        Η Σύνδεσμος Α.Ε. είναι μιας δεύτερης γενιάς ελληνική εταιρία, που εδώ και 30 χρόνια
+                        προμηθεύει
+                        φαρμακαποθήκες και φαρμακεία με ιατροτεχνολογικά και παραφαρμακευτικά προϊόντα, δραστικές
+                        φαρμακευτικές ουσίες, πρώτες ύλες, <span class="text-line-color">…περισσοτερα</span>
+                    </p>
+                </div>
+                <div class="bg-gray-100 w-full h-px hidden md:block"></div>
+                <div class="md:flex items-center justify-between mt-5 hidden">
                     <div class="flex items-center">
                         <button
                             class="flex items-center justify-between py-2 px-3 mr-2.5 bg-gray-50 border border-gray-100">
@@ -341,11 +348,11 @@
             <div
                 class="grid hover xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 mt-2 gap-x-4 md:gap-y-8 gap-y-3">
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56">
                         <a href="/"><img src="../../assets/spray6.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32">
+                    <div class="card-cont-text md:h-32">
                         <h2 class="card-title">tonic mountain tea</h2>
                         <div>
                             <p class="card-subtitle">Αφρόλουτρο με Αιθέρια Έλαια Ecopack 500ml</p>
@@ -354,11 +361,11 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray2.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32">
+                    <div class="card-cont-text md:h-32">
                         <h2 class="card-title">Erythro Forte</h2>
                         <div>
                             <p class="card-subtitle">Dermotherapy Balsam Gold</p>
@@ -367,11 +374,11 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray3.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
+                    <div class="card-cont-text md:h-32 ">
                         <h2 class="card-title ">Galesyn® Anti Hair Loss Lotion</h2>
                         <div>
                             <p class="card-subtitle">Πρωτοποριακή λοσιόν μαλλιών</p>
@@ -380,11 +387,11 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray4.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32">
+                    <div class="card-cont-text md:h-32">
                         <h2 class="card-title ">Galesyn® Emulsion</h2>
                         <div>
                             <p class="card-subtitle ">Σαμπουάν που ενδυναμώνει τις τρίχες συμβάλλοντας στη</p>
@@ -393,11 +400,11 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray5.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
+                    <div class="card-cont-text md:h-32 ">
                         <h2 class="card-title ">Δαφνέλαιο Kanavos</h2>
                         <div>
                             <p class="card-subtitle">Δαφνέλαιο Kanavos 250ml</p>
@@ -406,11 +413,11 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray6.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
+                    <div class="card-cont-text md:h-32 ">
                         <h2 class="card-title">Galesyn® After Nip</h2>
                         <div>
                             <p class="card-subtitle">Απαλό, καταπραϋντικό, δροσιστικό gel</p>
@@ -419,11 +426,11 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray7.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
+                    <div class="card-cont-text md:h-32 ">
                         <h2 class="card-title">Aqua Beelicious</h2>
                         <div>
                             <p class="card-subtitle">Oil-Free Κρέμα- Gel Ενυδάτωσης ελαφριάς υφής</p>
@@ -432,11 +439,11 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray8.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
+                    <div class="card-cont-text md:h-32 ">
                         <h2 class="card-title">Βρεφοζυγός Beurer / BY 90</h2>
                         <div>
                             <p class="card-subtitle">Βρεφοζυγός Ψηφιακός Beurer -BY 80- Ικανότητα Ζύγισης: </p>
@@ -445,11 +452,11 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray9.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32">
+                    <div class="card-cont-text md:h-32">
                         <h2 class="card-title">Galesyn® Anti Hair Loss Shampoo</h2>
                         <div>
                             <p class="card-subtitle">Σαμπουάν που ενδυναμώνει τις τρίχες συμβάλλοντας στη</p>
@@ -458,11 +465,11 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray10.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
+                    <div class="card-cont-text md:h-32 ">
                         <h2 class="card-title">tonic mountain tea</h2>
                         <div>
                             <p class="card-subtitle">Αφρόλουτρο με Αιθέρια Έλαια Ecopack 500ml</p>
@@ -471,24 +478,24 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray6.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32">
+                    <div class="card-cont-text md:h-32">
                         <h2 class="card-title">Erythro Forte</h2>
                         <div class="">
                             <p class="card-subtitle">Dermotherapy Balsam Gold</p>
-                            <p class="card-content md:mt-5">Συνδεθείτε για να δείτε την τιμή</p>
+                            <p class="card-content">Συνδεθείτε για να δείτε την τιμή</p>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray2.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32">
+                    <div class="card-cont-text md:h-32">
                         <h2 class="card-title">Acetone CHEMCO 1lt</h2>
                         <div>
                             <p class="card-content">Συνδεθείτε για να δείτε την τιμή</p>
@@ -496,63 +503,63 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray3.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
-                        <h2 class="card-title ">Φλεβoκαθετήρας</h2>
+                    <div class="card-cont-text md:h-32 ">
+                        <h2 class="card-title">Φλεβoκαθετήρας</h2>
                         <div>
-                            <p class="card-subtitle ">Vygon 22G Vygonule V Ref:110.808</p>
-                            <p class="card-content ">Συνδεθείτε για να δείτε την τιμή</p>
+                            <p class="card-subtitle">Vygon 22G Vygonule V Ref:110.808</p>
+                            <p class="card-content">Συνδεθείτε για να δείτε την τιμή</p>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div class="card-img-wrapper">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray4.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
-                        <h2 class="card-title ">Νέο Παλμικό Οξύμετρο</h2>
+                    <div class="card-cont-text md:h-32 ">
+                        <h2 class="card-title">Νέο Παλμικό Οξύμετρο</h2>
                         <div>
                             <p class="card-subtitle">Matsuda CMS50D1</p>
-                            <p class="card-content ">Συνδεθείτε για να δείτε την τιμή</p>
+                            <p class="card-content">Συνδεθείτε για να δείτε την τιμή</p>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="card-img-wrapper">
+                <div class="hidden md:block">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray5.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
-                        <h2 class="card-title ">Galesyn® After Nip</h2>
+                    <div class="card-cont-text md:h-32 ">
+                        <h2 class="card-title">Galesyn® After Nip</h2>
                         <div>
-                            <p class="card-subtitle ">Απαλό, καταπραϋντικό, δροσιστικό gel</p>
-                            <p class="card-content ">Συνδεθείτε για να δείτε την τιμή</p>
+                            <p class="card-subtitle">Απαλό, καταπραϋντικό, δροσιστικό gel</p>
+                            <p class="card-content">Συνδεθείτε για να δείτε την τιμή</p>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="card-img-wrapper">
+                <div class="hidden md:block">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray6.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
+                    <div class="card-cont-text md:h-32 ">
                         <h2 class="card-title">NIVEA</h2>
                         <div>
                             <p class="card-subtitle">Protect & Moisture lotion spf 20</p>
-                            <p class="card-content md:mt-5">Συνδεθείτε για να δείτε την τιμή</p>
+                            <p class="card-content">Συνδεθείτε για να δείτε την τιμή</p>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="card-img-wrapper">
+                <div class="hidden md:block">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray7.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
+                    <div class="card-cont-text md:h-32 ">
                         <h2 class="card-title">Μάσκες Χειρουργικές SynMask GR</h2>
                         <div>
                             <p class="card-subtitle">Μαύρες 3ply Type II BFE>98% με Λάστιχο 20τμχ</p>
@@ -560,12 +567,12 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="card-img-wrapper">
+                <div class="hidden md:block">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray8.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
+                    <div class="card-cont-text md:h-32 ">
                         <h2 class="card-title">Brita Ανταλλακτικό Φίλτρο Βρύσης</h2>
                         <div>
                             <p class="card-subtitle">On Tap HF New</p>
@@ -573,12 +580,12 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="card-img-wrapper">
+                <div class="hidden md:block">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray9.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32">
+                    <div class="card-cont-text md:h-32">
                         <h2 class="card-title">Μάσκες Χειρουργικές SynMask</h2>
                         <div>
                             <p class="card-subtitle">3ply Type IIR BFE>98% με Λάστιχο 50τμχ</p>
@@ -586,12 +593,12 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="card-img-wrapper">
+                <div class="hidden md:block">
+                    <div class="card-img-wrapper 2xl:h-72 xl:h-64 lg:h-60 h-56 ">
                         <a href="/"><img src="../../assets/spray10.png" alt="spray"></a>
                     </div>
                     <div class="card-hr"></div>
-                    <div class="card-cont-text h-32 ">
+                    <div class="card-cont-text md:h-32 ">
                         <h2 class="card-title">BY 90 – Βρεφοζυγός Beurer</h2>
                         <div>
                             <p class="card-subtitle">3ply Type IIR BFE>98% με Λάστιχο 50τμχ</p>
@@ -600,8 +607,8 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full flex items-center justify-center mt-8 md:hidden">
-                <button class="p-3.5 text-center border-gray-200 border text-13 text-black">δείτε
+            <div class="w-full flex items-center justify-center mt-8 md:mt-16">
+                <button class="btn border-gray-900 font-normal md:px-7 text-gray-900">δείτε
                     περισσότερα</button>
             </div>
         </div>
@@ -609,8 +616,8 @@
     <!-- CARDS -->
 
     <!-- SLIDER -->
-    <div class="section-container">
-        <a href="/"><img src='../../assets/banner3.png' alt="banner3" class="hidden mt-14 md:block w-full" /></a>
+    <div class="section-container mt-20 pt-1 md:pt-0 md:mt-12">
+        <a href="/"><img src='../../assets/banner3.png' alt="banner3" class="hidden md:block w-full" /></a>
         <a href="/"><img src='../../assets/banner3-res.png' alt="banner3" class="block mt-8 md:hidden w-full" /></a>
     </div>
     <!-- SLIDER -->
