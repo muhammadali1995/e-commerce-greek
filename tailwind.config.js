@@ -34,7 +34,7 @@ module.exports = {
       },
       width: {
         45: '180px',
-        125: '500px',
+        105: '420px',
         297: '1190px',
         'fill': '-webkit-fill-available'
       },

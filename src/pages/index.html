@@ -40,21 +40,27 @@
                         </button>
                         <p class="ml-4">Προϊόντα</p>
                     </div>
-                    <div id="menubar" class="absolute hidden w-full md:w-auto flex items-start z-50 top-0 -ml-4 bg-white">
-                        <div class="2xl:w-125 w-full shadow-menu">
+                    <div id="menubar"
+                        class="absolute hidden w-full md:w-auto flex items-start z-50 top-0 -ml-4 bg-white">
+                        <div class="2xl:w-105 w-full md:shadow-menu">
                             <div class="flex items-center px-4 justify-between md:justify-start md:pl-4 pt-3">
                                 <a href="/"> <img src="./../../assets/main-logo.png" alt="main-logo"
                                         class="w-36 sm:w-45"></a>
                                 <div class="items-center lg:ml-15 mt-3.5 ml-4 md:flex relative">
-                                    <button id="menuCloseBtn">
+                                    <button class="menuCloseBtn">
                                         <img src="./../../assets/menu.svg" alt="menu">
                                     </button>
                                     <p class="ml-4 hidden md:flex">Προϊόντα</p>
                                 </div>
                             </div>
-                            <div class="border-t-3 border-t-gray-100 mt-4 pt-4 px-6 relative">
-                                <input type="text" placeholder="Όλες οι κατηγορίες"
-                                    class="w-full bg-gray-50 border-none text-center py-2 px-4 subtitle-lg placeholder:text-black outline-none font-medium mb-5">
+                            <div id="mainDropdown" class="border-t-3 border-t-gray-100 mt-4 pt-4 px-6 relative">
+                                <div class="flex items-center mb-5">
+                                    <button class="menuCloseBtn md:hidden mr-3">
+                                        <img src="./../../assets/close-btn.svg" alt="close">
+                                    </button>
+                                    <input type="text" placeholder="Όλες οι κατηγορίες"
+                                        class="w-full bg-gray-50 border-none text-center py-2 px-4 subtitle-lg placeholder:text-black outline-none font-medium">
+                                </div>
                                 <div class="dropdown">
                                     <div>
                                         <img src="./../../assets/dropdown-icon.svg" alt="icon">
@@ -142,8 +148,73 @@
                             </div>
                         </div>
                         <div
-                            class="flex gap-4 subDropdown hidden items-start justify-between w-full 2xl:w-297 px-6 py-8 shadow-menu text-sm font-normal">
-                            <div>
+                            class="flex flex-col md:flex-row md:gap-4 subDropdown hidden items-start justify-between w-full 2xl:w-297 px-6 py-8 md:shadow-menu text-sm font-normal">
+                            <div class="flex items-center md:hidden mt-4">
+                                <button class="forwardBtn mr-3 text-lg">
+                                    < </button>
+                                        <h3 id="itemTitle" class="font-bold text-green-700 mt-0"></h3>
+                            </div>
+                            <div class="md:hidden w-full">
+                                <div class="flex justify-between items-center">
+                                    <h5>Α’ Υλες</h5>
+                                    <p>></p>
+                                </div>
+                            </div>
+                            <div class="md:hidden w-full">
+                                <div class="flex justify-between items-center">
+                                    <h5>Α’ Υλες</h5>
+                                    <p>></p>
+                                </div>
+                            </div>
+                            <div class="md:hidden w-full">
+                                <div class="flex justify-between items-center">
+                                    <h5>Α’ Υλες</h5>
+                                    <p>></p>
+                                </div>
+                            </div>
+                            <div class="md:hidden w-full">
+                                <div class="flex justify-between items-center">
+                                    <h5>Α’ Υλες</h5>
+                                    <p>></p>
+                                </div>
+                            </div>
+                            <div class="md:hidden w-full">
+                                <div class="flex justify-between items-center">
+                                    <h5>Α’ Υλες</h5>
+                                    <p>></p>
+                                </div>
+                            </div>
+                            <div class="md:hidden w-full">
+                                <div class="flex justify-between items-center">
+                                    <h5>Α’ Υλες</h5>
+                                    <p>></p>
+                                </div>
+                            </div>
+                            <div class="md:hidden w-full">
+                                <div class="flex justify-between items-center">
+                                    <h5>Α’ Υλες</h5>
+                                    <p>></p>
+                                </div>
+                            </div>
+                            <div class="md:hidden w-full">
+                                <div class="flex justify-between items-center">
+                                    <h5>Α’ Υλες</h5>
+                                    <p>></p>
+                                </div>
+                            </div>
+                            <div class="md:hidden w-full">
+                                <div class="flex justify-between items-center">
+                                    <h5>Α’ Υλες</h5>
+                                    <p>></p>
+                                </div>
+                            </div>
+                            <div class="md:hidden w-full">
+                                <div class="flex justify-between items-center">
+                                    <h5>Α’ Υλες</h5>
+                                    <p>></p>
+                                </div>
+                            </div>
+                            <div class="hidden md:block">
                                 <h3 class="mt-0">Sex</h3>
                                 <p>Διεγερτικά</p>
                                 <p>Λιπαντικά</p>
@@ -170,7 +241,7 @@
                                 <p>Κάλοι - Σκληρύνσεις - Φουσκάλες</p>
                                 <p> Κρέμες Ποδιών</p>
                             </div>
-                            <div>
+                            <div class="hidden md:block">
                                 <h3 class="mt-0">Sex</h3>
                                 <p>Διεγερτικά</p>
                                 <p>Λιπαντικά</p>

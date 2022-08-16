@@ -254,7 +254,7 @@ body {
   }
 
   #menubar h5 {
-    @apply ml-4
+    @apply md:ml-4
   }
 
   .Discount {
@@ -269,11 +269,15 @@ body {
   }
 
   .subDropdown h5 {
-    @apply ml-4 font-medium mt-5;
+    @apply md:ml-4 font-medium md:mt-5;
   }
 
   .subDropdown h3 {
-    @apply font-bold text-green-700 mt-5;
+    @apply font-bold md:text-green-700 md:mt-5;
+  }
+
+  .dropdown h5 {
+    @apply ml-4
   }
 
   .subDropdown p {
@@ -284,6 +288,9 @@ body {
       @apply flex md:gap-6
   }
 }
+.-translate-285 {
+  transform: translateX(-285px);
+} 
 
 .text-white-im * {
   color: white !important;
