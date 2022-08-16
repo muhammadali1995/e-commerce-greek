@@ -36,6 +36,7 @@ module.exports = {
         45: '180px',
         125: '500px',
         297: '1190px',
+        'fill': '-webkit-fill-available'
       },
       maxWidth: {
         100: '400px',

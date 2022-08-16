@@ -252,6 +252,10 @@ body {
    @apply -mr-44 sm:-mr-0
   }
 
+  #menubar h5 {
+    @apply ml-4
+  }
+
   .Discount {
     @apply lg:h-[760px]
   }
@@ -263,7 +267,7 @@ body {
     @apply flex items-center;
   }
 
-  .dropdown h5 {
+  .subDropdown h5 {
     @apply ml-4 font-medium mt-5;
   }
 
