@@ -36,7 +36,9 @@ dropdownItems.forEach(item => {
     })
 })
 
-forwardBtn.addEventListener('click', () => {
-    mainDropdown.classList.remove('hidden')
-    subDropdown.classList.add('hidden')
-})
+if (forwardBtn) {
+    forwardBtn.addEventListener('click', () => {
+        mainDropdown.classList.remove('hidden')
+        subDropdown.classList.add('hidden')
+    })
+}
